@@ -1,0 +1,50 @@
+Number of Platforms = 1
+Platform #0:
+        Name    = 'Intel(R) OpenCL'
+        Vendor  = 'Intel(R) Corporation'
+        Version = 'OpenCL 1.2 '
+        Profile = 'FULL_PROFILE'
+        Number of Devices = 2
+        Device #0:
+                Type = 0x0004 = CL_DEVICE_TYPE_GPU
+                Device Vendor ID = 0x8086 (Intel)
+                Device Maximum Compute Units = 40
+                Device Maximum Work Item Dimensions = 3
+                Device Maximum Work Item Sizes = 512 x 512 x 512
+                Device Maximum Work Group Size = 512
+                Device Maximum Clock Frequency = 200 MHz
+        Device #1:
+                Type = 0x0002 = CL_DEVICE_TYPE_CPU
+                Device Vendor ID = 0x8086 (Intel)
+                Device Maximum Compute Units = 4
+                Device Maximum Work Item Dimensions = 3
+                Device Maximum Work Item Sizes = 8192 x 8192 x 8192
+                Device Maximum Work Group Size = 8192
+                Device Maximum Clock Frequency = 2600 MHz
+
+Device Extensions:
+cl_intel_accelerator
+cl_intel_advanced_motion_estimation
+cl_intel_ctz
+cl_intel_d3d11_nv12_media_sharing
+cl_intel_dx9_media_sharing
+cl_intel_motion_estimation
+cl_intel_simultaneous_sharing
+cl_intel_subgroups
+cl_khr_3d_image_writes
+cl_khr_byte_addressable_store
+cl_khr_d3d10_sharing
+cl_khr_d3d11_sharing
+cl_khr_depth_images
+cl_khr_dx9_media_sharing
+cl_khr_gl_depth_images
+cl_khr_gl_event
+cl_khr_gl_msaa_sharing
+cl_khr_gl_sharing
+cl_khr_global_int32_base_atomics
+cl_khr_global_int32_extended_atomics
+cl_khr_icd
+cl_khr_image2d_from_buffer
+cl_khr_local_int32_base_atomics
+cl_khr_local_int32_extended_atomics
+cl_khr_spir
