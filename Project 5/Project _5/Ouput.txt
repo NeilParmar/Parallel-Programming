@@ -1,0 +1,168 @@
+flip1 ~/workspace/Project_5 85% ./test.sh
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+flip1 ~/workspace/Project_5 86% clear
+flip1 ~/workspace/Project_5 87% ./test.sh
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+flip1 ~/workspace/Project_5 88% chmod +x test.sh
+flip1 ~/workspace/Project_5 89% ./test.sh
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+flip1 ~/workspace/Project_5 90% chmod +x test.sh
+flip1 ~/workspace/Project_5 91% ./test.sh
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+
+
+g++: error: simd.ph.o: No such file or directory
+./arraymult: Command not found.
+flip1 ~/workspace/Project_5 92% make
+make: `simd.p5.o' is up to date.
+flip1 ~/workspace/Project_5 93% ./arraymult
+./arraymult: Command not found.
+flip1 ~/workspace/Project_5 94% g++ -o arraymult arraymult.cpp simd.p5.o -lm -fopenmp
+arraymult.cpp:11:30: error: ‘NUM’ was not declared in this scope
+         float *A = new float[NUM];
+                              ^
+arraymult.cpp:12:30: error: ‘NUM’ was not declared in this scope
+         float *B = new float[NUM];
+                              ^
+arraymult.cpp:13:30: error: ‘NUM’ was not declared in this scope
+         float *C = new float[NUM];
+                              ^
+arraymult.cpp: In function ‘int main()’:
+arraymult.cpp:25:22: error: ‘NUM’ was not declared in this scope
+  printf("NUM: %d\n", NUM);
+                      ^
+flip1 ~/workspace/Project_5 95% make
+make: `simd.p5.o' is up to date.
+flip1 ~/workspace/Project_5 96% g++ -o arraymult arraymult.cpp simd.p5.o -lm -fopenmp
+flip1 ~/workspace/Project_5 97% ./arraymult
+NUM: 10000
+ Peak Performance =   619.26 MegaMults/sec
+ Average Performance =     5.54 MegaMults/Sec
+ Peak Performance =   624.09 MegaMults/sec
+ Average Performance =     6.47 MegaMults/Sec
+flip1 ~/workspace/Project_5 98% g++ -o arraymult arraymult.cpp simd.p5.o -lm -fopenmp
+flip1 ~/workspace/Project_5 99% ./arraymult                                      NUM: 1000
+ Peak Performance =   134.99 MegaMults/sec
+ Average Performance =     1.42 MegaMults/Sec
+ Peak Performance =   134.99 MegaMults/sec
+ Average Performance =     1.46 MegaMults/Sec
+flip1 ~/workspace/Project_5 100% g++ -o arraymult arraymult.cpp simd.p5.o -lm -fopenmp
+flip1 ~/workspace/Project_5 101% ./arraymult                                     NUM: 100000
+ Peak Performance =   984.56 MegaMults/sec
+ Average Performance =     7.90 MegaMults/Sec
+ Peak Performance =  1058.07 MegaMults/sec
+ Average Performance =    11.73 MegaMults/Sec
+
+flip2 ~ 33% cd workspace
+flip2 ~/workspace 34% ls
+arraymult.cpp   Project_0              Project1_main.cpp~  Project_4
+arraymult.cpp~  project0_t1.cpp~       Project_2           Project4_main.cpp~
+Height.cpp~     project0_t4.cpp~       Project2_main.cpp~  Project_5
+impdoc1.cpp~    Project_1              Project_3           Project_def.cpp~
+Makefile~       Project1_functions.h~  Project3_main.cpp~  Temp
+flip2 ~/workspace 35% cd Project_5
+flip2 ~/workspace/Project_5 36% ls
+arraymult      arraymult.cpp~  Makefile   nonsimd      simd.p5.cpp~  simd.p5.o
+arraymult.cpp  arraymult.h~    Makefile~  simd.p5.cpp  simd.p5.h     test.sh
+flip2 ~/workspace/Project_5 37% make
+make: `simd.p5.o' is up to date.
+flip2 ~/workspace/Project_5 38% MultiplicationPeak Performance
+MultiplicationPeak: Command not found.
+flip2 ~/workspace/Project_5 39%
+arraymult*      arraymult.h~    nonsimd/        simd.p5.h
+arraymult.cpp~  Makefile~       simd.p5.cpp~    simd.p5.o
+arraymult.cpp   Makefile        simd.p5.cpp     test.sh*
+flip2 ~/workspace/Project_5 39% Average Performance
+Average: Command not found.
+flip2 ~/workspace/Project_5 40% ReductionPeak Performance
+ReductionPeak: Command not found.
+flip2 ~/workspace/Project_5 41%
+arraymult*      arraymult.h~    nonsimd/        simd.p5.h
+arraymult.cpp~  Makefile~       simd.p5.cpp~    simd.p5.o
+arraymult.cpp   Makefile        simd.p5.cpp     test.sh*
+flip2 ~/workspace/Project_5 41% g++ -o arraymult arraymult.cpp simd.p5.o -lm -fopenmp
+flip2 ~/workspace/Project_5 42% ./arraymult
+NUM: 1000000
+ Peak Performance =   847.85 MegaMults/sec
+ Average Performance =     7.93 MegaMults/Sec
+ Peak Performance =  1018.41 MegaMults/sec
+ Average Performance =    11.29 MegaMults/Sec
+flip2 ~/workspace/Project_5 43% g++ -o arraymult arraymult.cpp simd.p5.o -lm -fopenmp
+flip2 ~/workspace/Project_5 44% ./arraymult                                      NUM: 10000000
+ Peak Performance =   753.25 MegaMults/sec
+ Average Performance =     7.83 MegaMults/Sec
+ Peak Performance =  1006.54 MegaMults/sec
+ Average Performance =    11.16 MegaMults/Sec
+flip2 ~/workspace/Project_5 45%

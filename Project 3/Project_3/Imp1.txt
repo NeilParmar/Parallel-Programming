@@ -1,0 +1,253 @@
+dear119-13 ~ 17% cd work
+workspace/     workspace.zip  
+dear119-13 ~ 17% cd workspace
+dear119-13 ~/workspace 18% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 19% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8562 May  1 15:23 Project3_main
+dear119-13 ~/workspace 20% ./Project3_main
+Using 2 threads
+and 0 pad
+   Performance = 11519668.43 MegaPads/sec
+dear119-13 ~/workspace 21% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 22% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8562 May  1 15:24 Project3_main
+dear119-13 ~/workspace 23% ./Project3_main
+Using 3 threads
+and 0 pad
+   Performance = 11517556.11 MegaPads/sec
+dear119-13 ~/workspace 24% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8562 May  1 15:24 Project3_main
+dear119-13 ~/workspace 25% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 26% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8562 May  1 15:25 Project3_main
+dear119-13 ~/workspace 27% ./Project3_main
+Using 4 threads
+and 0 pad
+   Performance = 18794478.22 MegaPads/sec
+dear119-13 ~/workspace 28% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 29% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8562 May  1 15:26 Project3_main
+dear119-13 ~/workspace 30% ./Project3_main
+Using 5 threads
+and 0 pad
+   Performance = 12617461.10 MegaPads/sec
+dear119-13 ~/workspace 31% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 32% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8562 May  1 15:26 Project3_main
+dear119-13 ~/workspace 33% ./Project3_main
+Using 5 threads
+and 0 pad
+   Performance = 19683180.84 MegaPads/sec
+dear119-13 ~/workspace 34% ./Project3_main
+Using 5 threads
+and 0 pad
+   Performance = 12931310.31 MegaPads/sec
+dear119-13 ~/workspace 35% ./Project3_main
+Using 5 threads
+and 0 pad
+   Performance = 12550101.59 MegaPads/sec
+dear119-13 ~/workspace 36% ./Project3_main
+Using 5 threads
+and 0 pad
+   Performance = 12908222.59 MegaPads/sec
+dear119-13 ~/workspace 37% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 38% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8562 May  1 15:28 Project3_main
+dear119-13 ~/workspace 39% ./Project3_main
+Using 2 threads
+and 1 pad
+   Performance = 11723503.14 MegaPads/sec
+dear119-13 ~/workspace 40% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 41% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8562 May  1 15:29 Project3_main
+dear119-13 ~/workspace 42% ./Project3_main
+Using 3 threads
+and 1 pad
+   Performance = 38073550.30 MegaPads/sec
+dear119-13 ~/workspace 43% ./Project3_main
+Using 3 threads
+and 1 pad
+   Performance = 12081672.59 MegaPads/sec
+dear119-13 ~/workspace 44% ./Project3_main
+Using 3 threads
+and 1 pad
+   Performance = 12357344.14 MegaPads/sec
+dear119-13 ~/workspace 45% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 46% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8562 May  1 15:31 Project3_main
+dear119-13 ~/workspace 47% ./Project3_main
+Using 4 threads
+and 1 pad
+   Performance = 12910157.59 MegaPads/sec
+dear119-13 ~/workspace 48% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 49% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8562 May  1 15:32 Project3_main
+dear119-13 ~/workspace 50% ./Project3_main
+Using 5 threads
+and 1 pad
+   Performance = 15561591.58 MegaPads/sec
+dear119-13 ~/workspace 51% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 52% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8594 May  1 15:33 Project3_main
+dear119-13 ~/workspace 53% ./Project3_main
+Using 2 threads
+and 2 pad
+   Performance = 11446945.12 MegaPads/sec
+dear119-13 ~/workspace 54% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 55% 
+dear119-13 ~/workspace 55% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8594 May  1 15:34 Project3_main
+dear119-13 ~/workspace 56% ./Project3_main
+Using 3 threads
+and 2 pad
+   Performance = 12262874.92 MegaPads/sec
+dear119-13 ~/workspace 57% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 58% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8594 May  1 15:35 Project3_main
+dear119-13 ~/workspace 59% ./Project3_main
+Using 4 threads
+and 2 pad
+   Performance = 12845180.05 MegaPads/sec
+dear119-13 ~/workspace 60% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 61% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8594 May  1 15:35 Project3_main
+dear119-13 ~/workspace 62% ./Project3_main
+Using 5 threads
+and 2 pad
+   Performance = 12896649.79 MegaPads/sec
+dear119-13 ~/workspace 63% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 64% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8562 May  1 15:36 Project3_main
+dear119-13 ~/workspace 65% ./Project3_main
+Using 4 threads
+and 0 pad
+   Performance = 19980164.85 MegaPads/sec
+dear119-13 ~/workspace 66% ./Project3_main
+Using 4 threads
+and 0 pad
+   Performance = 12471285.37 MegaPads/sec
+dear119-13 ~/workspace 67% ./Project3_main
+Using 4 threads
+and 0 pad
+   Performance = 14439531.99 MegaPads/sec
+dear119-13 ~/workspace 68% ./Project3_main
+Using 4 threads
+and 0 pad
+   Performance = 12862048.85 MegaPads/sec
+dear119-13 ~/workspace 69% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8562 May  1 15:36 Project3_main
+dear119-13 ~/workspace 70% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 71% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8562 May  1 15:38 Project3_main
+dear119-13 ~/workspace 72% ./Project3_main
+Using 5 threads
+and 1 pad
+   Performance = 14435045.29 MegaPads/sec
+dear119-13 ~/workspace 73% ./Project3_main
+Using 5 threads
+and 1 pad
+   Performance = 12452989.66 MegaPads/sec
+dear119-13 ~/workspace 74% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 75% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8578 May  1 15:39 Project3_main
+dear119-13 ~/workspace 76% ./Project3_main
+Using 2 threads
+and 3 pad
+   Performance = 42203454.16 MegaPads/sec
+dear119-13 ~/workspace 77% ./Project3_main
+Using 2 threads
+and 3 pad
+   Performance = 11463065.03 MegaPads/sec
+dear119-13 ~/workspace 78% ./Project3_main
+Using 2 threads
+and 3 pad
+   Performance = 11467467.70 MegaPads/sec
+dear119-13 ~/workspace 79% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 80% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8578 May  1 15:42 Project3_main
+dear119-13 ~/workspace 81% ./Project3_main
+Using 3 threads
+and 3 pad
+   Performance = 11610126.96 MegaPads/sec
+dear119-13 ~/workspace 82% ./Project3_main
+Using 3 threads
+and 3 pad
+   Performance = 42483375.35 MegaPads/sec
+dear119-13 ~/workspace 83% ./Project3_main
+Using 3 threads
+and 3 pad
+   Performance = 11409109.86 MegaPads/sec
+dear119-13 ~/workspace 84% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 85% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8578 May  1 15:46 Project3_main
+dear119-13 ~/workspace 86% ./Project3_main
+Using 4 threads
+and 3 pad
+   Performance = 14576140.31 MegaPads/sec
+dear119-13 ~/workspace 87% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 88% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8578 May  1 15:47 Project3_main
+dear119-13 ~/workspace 89% ./Project3_main
+Using 5 threads
+and 3 pad
+   Performance = 17875706.62 MegaPads/sec
+dear119-13 ~/workspace 90% ./Project3_main
+Using 5 threads
+and 3 pad
+   Performance = 14535030.51 MegaPads/sec
+dear119-13 ~/workspace 91% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 92% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8594 May  1 15:48 Project3_main
+dear119-13 ~/workspace 93% ./Project3_main
+Using 2 threads
+and 4 pad
+   Performance = 11248100.34 MegaPads/sec
+dear119-13 ~/workspace 94% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 95% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8594 May  1 15:49 Project3_main
+dear119-13 ~/workspace 96% ./Project3_main
+Using 3 threads
+and 4 pad
+   Performance = 10069069.69 MegaPads/sec
+dear119-13 ~/workspace 97% ./Project3_main
+Using 3 threads
+and 4 pad
+   Performance = 10571353.98 MegaPads/sec
+dear119-13 ~/workspace 98% ./Project3_main
+Using 3 threads
+and 4 pad
+   Performance = 37340142.23 MegaPads/sec
+dear119-13 ~/workspace 99% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 100% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8594 May  1 15:50 Project3_main
+dear119-13 ~/workspace 101% ./Project3_main
+Using 4 threads
+and 4 pad
+   Performance = 12747457.98 MegaPads/sec
+dear119-13 ~/workspace 102% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 103% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8594 May  1 15:51 Project3_main
+dear119-13 ~/workspace 104% ./Project3_main
+Using 5 threads
+and 4 pad
+   Performance = 14254210.32 MegaPads/sec
+dear119-13 ~/workspace 105% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+dear119-13 ~/workspace 106% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8594 May  1 15:52 Project3_main
+dear119-13 ~/workspace 107% ./Project3_main
+Using 2 threads
+and 5 pad
+   Performance = 8042402.89 MegaPads/sec
+dear119-13 ~/workspace 108% ./Project3_main
+Using 2 threads
+and 5 pad
+   Performance = 8543323.08 MegaPads/sec
+dear119-13 ~/workspace 109% ./Project3_main
+Using 2 threads
+and 5 pad
+   Performance = 8023173.96 MegaPads/sec
+dear119-13 ~/workspace 110% ./Project3_main
+Using 2 threads
+and 5 pad
+   Performance = 8530454.36 MegaPads/sec
+dear119-13 ~/workspace 111% 

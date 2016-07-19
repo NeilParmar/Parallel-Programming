@@ -1,0 +1,512 @@
+rabbit ~/workspace 261% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 262% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8506 May  1 16:24 Project3_main
+rabbit ~/workspace 263% ./Project3_main
+Using 4 threads
+and 8 pad
+   Performance = 1667666.16 MegaPads/sec
+rabbit ~/workspace 264% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 265% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8506 May  1 16:24 Project3_main
+rabbit ~/workspace 266% ./Project3_main
+Using 4 threads
+and 8 pad
+   Performance = 1618857.33 MegaPads/sec
+rabbit ~/workspace 267% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 268% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8506 May  1 16:24 Project3_main
+rabbit ~/workspace 269% ./Project3_main
+Using 5 threads
+and 8 pad
+   Performance = 2059417.20 MegaPads/sec
+rabbit ~/workspace 270% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 271% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8506 May  1 16:25 Project3_main
+rabbit ~/workspace 272% ./Project3_main
+Using 1 threads
+and 9 pad
+   Performance = 4778551.92 MegaPads/sec
+rabbit ~/workspace 273% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 274% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8506 May  1 16:26 Project3_main
+rabbit ~/workspace 275% ./Project3_main
+Using 2 threads
+and 9 pad
+   Performance = 2918200.78 MegaPads/sec
+rabbit ~/workspace 276% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 277% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8506 May  1 16:26 Project3_main
+rabbit ~/workspace 278% ./Project3_main
+Using 2 threads
+and 9 pad
+   Performance = 2889463.47 MegaPads/sec
+rabbit ~/workspace 279% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 280% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8506 May  1 16:27 Project3_main
+rabbit ~/workspace 281% ./Project3_main
+Using 3 threads
+and 9 pad
+   Performance = 3172827.95 MegaPads/sec
+rabbit ~/workspace 282% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 283% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8506 May  1 16:27 Project3_main
+rabbit ~/workspace 284% ./Project3_main
+Using 4 threads
+and 9 pad
+   Performance = 1770654.89 MegaPads/sec
+rabbit ~/workspace 285% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 286% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8506 May  1 16:27 Project3_main
+rabbit ~/workspace 287% ./Project3_main
+Using 5 threads
+and 9 pad
+   Performance = 1803813.14 MegaPads/sec
+rabbit ~/workspace 288% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 289% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:28 Project3_main
+rabbit ~/workspace 290% ./Project3_main
+Using 1 threads
+and 10 pad
+   Performance = 4633116.85 MegaPads/sec
+rabbit ~/workspace 291% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 292% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:28 Project3_main
+rabbit ~/workspace 293% ./Project3_main
+Using 2 threads
+and 10 pad
+   Performance = 2883608.91 MegaPads/sec
+rabbit ~/workspace 294% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 295% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:29 Project3_main
+rabbit ~/workspace 296% ./Project3_main
+Using 2 threads
+and 10 pad
+   Performance = 2809197.52 MegaPads/sec
+rabbit ~/workspace 297% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 298% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:29 Project3_main
+rabbit ~/workspace 299% ./Project3_main
+Using 3 threads
+and 10 pad
+   Performance = 3014669.96 MegaPads/sec
+rabbit ~/workspace 300% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 301% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:29 Project3_main
+rabbit ~/workspace 302% ./Project3_main
+Using 3 threads
+and 10 pad
+   Performance = 3364152.51 MegaPads/sec
+rabbit ~/workspace 303% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 304% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:29 Project3_main
+rabbit ~/workspace 305% ./Project3_main
+Using 4 threads
+and 10 pad
+   Performance = 1601140.71 MegaPads/sec
+rabbit ~/workspace 306% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 307% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:30 Project3_main
+rabbit ~/workspace 308% ./Project3_main
+Using 4 threads
+and 10 pad
+   Performance = 1666553.47 MegaPads/sec
+rabbit ~/workspace 309% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 310% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:30 Project3_main
+rabbit ~/workspace 311% ./Project3_main
+Using 5 threads
+and 10 pad
+   Performance = 1980899.89 MegaPads/sec
+rabbit ~/workspace 312% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 313% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:31 Project3_main
+rabbit ~/workspace 314% ./Project3_main
+Using 1 threads
+and 11 pad
+   Performance = 4843465.06 MegaPads/sec
+rabbit ~/workspace 315% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 316% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:31 Project3_main
+rabbit ~/workspace 317% ./Project3_main
+Using 1 threads
+and 11 pad
+   Performance = 4667992.54 MegaPads/sec
+rabbit ~/workspace 318% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 319% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:31 Project3_main
+rabbit ~/workspace 320% ./Project3_main
+Using 2 threads
+and 11 pad
+   Performance = 2948920.03 MegaPads/sec
+rabbit ~/workspace 321% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 322% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:32 Project3_main
+rabbit ~/workspace 323% ./Project3_main
+Using 2 threads
+and 11 pad
+   Performance = 3004765.75 MegaPads/sec
+rabbit ~/workspace 324% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 325% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:32 Project3_main
+rabbit ~/workspace 326% ./Project3_main
+Using 3 threads
+and 11 pad
+   Performance = 2877621.23 MegaPads/sec
+rabbit ~/workspace 327% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 328% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:32 Project3_main
+rabbit ~/workspace 329% ./Project3_main
+Using 3 threads
+and 11 pad
+   Performance = 2954779.82 MegaPads/sec
+rabbit ~/workspace 330% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 331% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:32 Project3_main
+rabbit ~/workspace 332% ./Project3_main
+Using 4 threads
+and 11 pad
+   Performance = 1739307.03 MegaPads/sec
+rabbit ~/workspace 333% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 334% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:33 Project3_main
+rabbit ~/workspace 335% ./Project3_main
+Using 4 threads
+and 11 pad
+   Performance = 1739081.39 MegaPads/sec
+rabbit ~/workspace 336% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 337% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:33 Project3_main
+rabbit ~/workspace 338% ./Project3_main
+Using 5 threads
+and 11 pad
+   Performance = 1793132.69 MegaPads/sec
+rabbit ~/workspace 339% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 340% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:33 Project3_main
+rabbit ~/workspace 341% ./Project3_main
+Using 5 threads
+and 11 pad
+   Performance = 1871739.48 MegaPads/sec
+rabbit ~/workspace 342% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 343% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:33 Project3_main
+rabbit ~/workspace 344% ./Project3_main
+Using 1 threads
+and 12 pad
+   Performance = 4774872.61 MegaPads/sec
+rabbit ~/workspace 345% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 346% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:33 Project3_main
+rabbit ~/workspace 347% ./Project3_main
+Using 1 threads
+and 12 pad
+   Performance = 4672131.89 MegaPads/sec
+rabbit ~/workspace 348% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 349% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:34 Project3_main
+rabbit ~/workspace 350% ./Project3_main
+Using 2 threads
+and 12 pad
+   Performance = 2880922.89 MegaPads/sec
+rabbit ~/workspace 351% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 352% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:34 Project3_main
+rabbit ~/workspace 353% ./Project3_main
+Using 2 threads
+and 12 pad
+   Performance = 2850636.99 MegaPads/sec
+rabbit ~/workspace 354% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 355% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:34 Project3_main
+rabbit ~/workspace 356% ./Project3_main
+Using 3 threads
+and 12 pad
+   Performance = 3016107.86 MegaPads/sec
+rabbit ~/workspace 357% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 358% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:34 Project3_main
+rabbit ~/workspace 359% ./Project3_main
+Using 3 threads
+and 12 pad
+   Performance = 3247850.14 MegaPads/sec
+rabbit ~/workspace 360% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 361% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:34 Project3_main
+rabbit ~/workspace 362% ./Project3_main
+Using 4 threads
+and 12 pad
+   Performance = 1706196.74 MegaPads/sec
+rabbit ~/workspace 363% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 364% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:35 Project3_main
+rabbit ~/workspace 365% ./Project3_main
+Using 4 threads
+and 12 pad
+   Performance = 1803412.84 MegaPads/sec
+rabbit ~/workspace 366% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 367% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:35 Project3_main
+rabbit ~/workspace 368% ./Project3_main
+Using 5 threads
+and 12 pad
+   Performance = 1782337.58 MegaPads/sec
+rabbit ~/workspace 369% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 370% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:35 Project3_main
+rabbit ~/workspace 371% ./Project3_main
+Using 5 threads
+and 12 pad
+   Performance = 1855991.10 MegaPads/sec
+rabbit ~/workspace 372% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 373% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:35 Project3_main
+rabbit ~/workspace 374% ./Project3_main
+Using 1 threads
+and 13 pad
+   Performance = 4590017.05 MegaPads/sec
+rabbit ~/workspace 375% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 376% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:36 Project3_main
+rabbit ~/workspace 377% ./Project3_main
+Using 1 threads
+and 13 pad
+   Performance = 4751152.11 MegaPads/sec
+rabbit ~/workspace 378% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 379% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:36 Project3_main
+rabbit ~/workspace 380% ./Project3_main
+Using 2 threads
+and 13 pad
+   Performance = 2846656.04 MegaPads/sec
+rabbit ~/workspace 381% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 382% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:36 Project3_main
+rabbit ~/workspace 383% ./Project3_main
+Using 2 threads
+and 13 pad
+   Performance = 2860042.61 MegaPads/sec
+rabbit ~/workspace 384% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 385% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:36 Project3_main
+rabbit ~/workspace 386% ./Project3_main
+Using 3 threads
+and 13 pad
+   Performance = 3084816.28 MegaPads/sec
+rabbit ~/workspace 387% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 388% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:36 Project3_main
+rabbit ~/workspace 389% ./Project3_main
+Using 3 threads
+and 13 pad
+   Performance = 2915566.73 MegaPads/sec
+rabbit ~/workspace 390% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 391% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:37 Project3_main
+rabbit ~/workspace 392% ./Project3_main
+Using 4 threads
+and 13 pad
+   Performance = 1732786.76 MegaPads/sec
+rabbit ~/workspace 393% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 394% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:37 Project3_main
+rabbit ~/workspace 395% ./Project3_main
+Using 4 threads
+and 13 pad
+   Performance = 1781362.04 MegaPads/sec
+rabbit ~/workspace 396% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 397% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:37 Project3_main
+rabbit ~/workspace 398% ./Project3_main
+Using 5 threads
+and 13 pad
+   Performance = 1671092.12 MegaPads/sec
+rabbit ~/workspace 399% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 400% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:37 Project3_main
+rabbit ~/workspace 401% ./Project3_main
+Using 5 threads
+and 13 pad
+   Performance = 1717388.82 MegaPads/sec
+rabbit ~/workspace 402% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 403% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:37 Project3_main
+rabbit ~/workspace 404% ./Project3_main
+Using 1 threads
+and 14 pad
+   Performance = 4780689.56 MegaPads/sec
+rabbit ~/workspace 405% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:37 Project3_main
+rabbit ~/workspace 406% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 407% ./Project3_main
+Using 1 threads
+and 14 pad
+   Performance = 4732360.41 MegaPads/sec
+rabbit ~/workspace 408% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 409% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:38 Project3_main
+rabbit ~/workspace 410% ./Project3_main
+Using 2 threads
+and 14 pad
+   Performance = 2947777.19 MegaPads/sec
+rabbit ~/workspace 411% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 412% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:38 Project3_main
+rabbit ~/workspace 413% ./Project3_main
+Using 3 threads
+and 14 pad
+   Performance = 2887656.18 MegaPads/sec
+rabbit ~/workspace 414% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 415% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:38 Project3_main
+rabbit ~/workspace 416% ./Project3_main
+Using 4 threads
+and 14 pad
+   Performance = 1690798.42 MegaPads/sec
+rabbit ~/workspace 417% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 418% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:39 Project3_main
+rabbit ~/workspace 419% ./Project3_main
+Using 4 threads
+and 14 pad
+   Performance = 1776089.72 MegaPads/sec
+rabbit ~/workspace 420% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 421% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:39 Project3_main
+rabbit ~/workspace 422% ./Project3_main
+Using 5 threads
+and 14 pad
+   Performance = 1796270.41 MegaPads/sec
+rabbit ~/workspace 423% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 424% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8538 May  1 16:39 Project3_main
+rabbit ~/workspace 425% ./Project3_main
+Using 5 threads
+and 14 pad
+   Performance = 1774743.62 MegaPads/sec
+rabbit ~/workspace 426% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 427% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:39 Project3_main
+rabbit ~/workspace 428% ./Project3_main
+Using 1 threads
+and 15 pad
+   Performance = 4837451.81 MegaPads/sec
+rabbit ~/workspace 429% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 430% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:40 Project3_main
+rabbit ~/workspace 431% ./Project3_main
+Using 1 threads
+and 15 pad
+   Performance = 4723904.31 MegaPads/sec
+rabbit ~/workspace 432% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 433% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:40 Project3_main
+rabbit ~/workspace 434% ./Project3_main
+Using 2 threads
+and 15 pad
+   Performance = 2884412.13 MegaPads/sec
+rabbit ~/workspace 435% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 436% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:40 Project3_main
+rabbit ~/workspace 437% ./Project3_main
+Using 2 threads
+and 15 pad
+   Performance = 2862465.98 MegaPads/sec
+rabbit ~/workspace 438% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 439% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:40 Project3_main
+rabbit ~/workspace 440% ./Project3_main
+Using 3 threads
+and 15 pad
+   Performance = 2951621.90 MegaPads/sec
+rabbit ~/workspace 441% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 442% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:40 Project3_main
+rabbit ~/workspace 443% ./Project3_main
+Using 3 threads
+and 15 pad
+   Performance = 3211244.87 MegaPads/sec
+rabbit ~/workspace 444% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 445% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:41 Project3_main
+rabbit ~/workspace 446% ./Project3_main
+Using 4 threads
+and 15 pad
+   Performance = 1745355.68 MegaPads/sec
+rabbit ~/workspace 447% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 448% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:41 Project3_main
+rabbit ~/workspace 449% ./Project3_main
+Using 4 threads
+and 15 pad
+   Performance = 1798903.52 MegaPads/sec
+rabbit ~/workspace 450% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 451% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8522 May  1 16:41 Project3_main
+rabbit ~/workspace 452% ./Project3_main
+Using 5 threads
+and 15 pad
+   Performance = 1765248.14 MegaPads/sec
+rabbit ~/workspace 453% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+Project3_main.cpp: In function ‘int main()’:
+Project3_main.cpp:27: error: ‘NUM’ was not declared in this scope
+rabbit ~/workspace 454% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+Project3_main.cpp: In function ‘int main()’:
+Project3_main.cpp:27: error: ‘NUM’ was not declared in this scope
+rabbit ~/workspace 455% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+Project3_main.cpp: In function ‘int main()’:
+Project3_main.cpp:27: error: ‘NUM’ was not declared in this scope
+rabbit ~/workspace 456% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 457% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8482 May  1 16:49 Project3_main
+rabbit ~/workspace 458% ./Project3_main
+Using 1 threads
+   Performance = 4716165.05 MegaPads/sec
+rabbit ~/workspace 459% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 460% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8482 May  1 16:49 Project3_main
+rabbit ~/workspace 461% ./Project3_main
+Using 1 threads
+   Performance = 4626486.56 MegaPads/sec
+rabbit ~/workspace 462% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 463% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8482 May  1 16:49 Project3_main
+rabbit ~/workspace 464% ./Project3_main
+Using 2 threads
+   Performance = 2763535.40 MegaPads/sec
+rabbit ~/workspace 465% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 466% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8482 May  1 16:50 Project3_main
+rabbit ~/workspace 467% ./Project3_main
+Using 2 threads
+   Performance = 2797382.70 MegaPads/sec
+rabbit ~/workspace 468% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 469% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8482 May  1 16:50 Project3_main
+rabbit ~/workspace 470% ./Project3_main
+Using 3 threads
+   Performance = 3226632.94 MegaPads/sec
+rabbit ~/workspace 471% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 472% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8482 May  1 16:50 Project3_main
+rabbit ~/workspace 473% ./Project3_main
+Using 3 threads
+   Performance = 3221506.02 MegaPads/sec
+rabbit ~/workspace 474% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 475% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8482 May  1 16:50 Project3_main
+rabbit ~/workspace 476% ./Project3_main
+Using 4 threads
+   Performance = 1821886.21 MegaPads/sec
+rabbit ~/workspace 477% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 478% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8482 May  1 16:50 Project3_main
+rabbit ~/workspace 479% ./Project3_main
+Using 4 threads
+   Performance = 1641508.62 MegaPads/sec
+rabbit ~/workspace 480% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 481% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8482 May  1 16:50 Project3_main
+rabbit ~/workspace 482% ./Project3_main
+Using 5 threads
+   Performance = 2011742.41 MegaPads/sec
+rabbit ~/workspace 483% 

@@ -1,0 +1,270 @@
+dear119-20 ~ 18% ssh engr.oregonstate.edu -l parmarn@oregonstate.edu
+The authenticity of host 'engr.oregonstate.edu (128.193.40.35)' can't be established.
+RSA key fingerprint is 82:57:16:c3:3f:6f:a0:6d:18:e3:ef:2d:16:67:f3:44.
+Are you sure you want to continue connecting (yes/no)? 
+Host key verification failed.
+dear119-20 ~ 19% ssh engr.oregonstate.edu -l parmarn
+The authenticity of host 'engr.oregonstate.edu (128.193.40.35)' can't be established.
+RSA key fingerprint is 82:57:16:c3:3f:6f:a0:6d:18:e3:ef:2d:16:67:f3:44.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'engr.oregonstate.edu,128.193.40.35' (RSA) to the list of known hosts.
+parmarn@engr.oregonstate.edu's password: 
+========================================================================
+This system is strictly for use by faculty, students, and staff of
+       the College of Engineering, Oregon State University.  
+
+    Unauthorized access is prohibited - violators will be prosecuted
+
+      Use should be consistent with the OSU Acceptable Use Policy
+       as well as College of Engineering policies and guidelines.
+  Refer to http://engr.oregonstate.edu/computing/faqs/coe_aup/index.html
+
+========================================================================
+   Quotas are used for home directories, incoming email, and printing.
+                    For details, check: 
+	http://engr.oregonstate.edu/computing/faqs/quotas.html
+------------------------------------------------------------------------
+If you have any problems with this machine, please mail support@engr.orst.edu
+========================================================================
+
+Connection to engr.oregonstate.edu closed.
+dear119-20 ~ 20% ssh rabbit.engr.oregonstate.edu -l parmarn
+parmarn@rabbit.engr.oregonstate.edu's password: 
+Last login: Sun May  1 15:56:42 2016 from dear119-13.engr.oregonstate.edu
+========================================================================
+This system is strictly for use by faculty, students, and staff of
+       the College of Engineering, Oregon State University.  
+
+    Unauthorized access is prohibited - violators will be prosecuted
+
+      Use should be consistent with the OSU Acceptable Use Policy
+       as well as College of Engineering policies and guidelines.
+  Refer to http://engr.oregonstate.edu/computing/faqs/coe_aup/index.html
+
+========================================================================
+   Quotas are used for home directories, incoming email, and printing.
+                    For details, check: 
+	http://engr.oregonstate.edu/computing/faqs/quotas.html
+------------------------------------------------------------------------
+If you have any problems with this machine, please mail support@engr.orst.edu
+========================================================================
+
+Terminal type? [xterm] 
+ 15:27:57 up 190 days, 19:18,  1 user,  load average: 0.41, 0.16, 0.14  
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+parmarn  pts/0    dear119-20.engr. 15:27    1.00s  0.25s  0.12s w
+rabbit ~ 18% cd w
+workspace/     workspace.zip  
+rabbit ~ 18% cd workspace
+rabbit ~/workspace 19% cd P
+Project_0/             Project_2/             Project_3.zip 
+Project_1/             Project2_main.cpp~     Project_def.cpp~ 
+Project1_functions.h~  Project_3/             
+Project1_main.cpp~     Project3_main.cpp~     
+rabbit ~/workspace 19% cd Project_3
+rabbit ~/workspace/Project_3 20% g++ Project3_main Project3_main.cpp -lm -fopenmp
+Project3_main: In function `_start':
+(.text+0x0): multiple definition of `_start'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o:(.text+0x0): first defined here
+Project3_main: In function `_fini':
+(.fini+0x0): multiple definition of `_fini'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o:(.fini+0x0): first defined here
+Project3_main:(.rodata+0x0): multiple definition of `_IO_stdin_used'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o:(.rodata.cst4+0x0): first defined here
+Project3_main: In function `__data_start':
+(.data+0x0): multiple definition of `__data_start'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o:(.data+0x0): first defined here
+Project3_main:(.rodata+0x8): multiple definition of `__dso_handle'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o:(.rodata+0x0): first defined here
+Project3_main: In function `_init':
+(.init+0x0): multiple definition of `_init'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o:(.init+0x0): first defined here
+/tmp/ccbVGZ22.o:(.bss+0x0): multiple definition of `Array'
+Project3_main:(.bss+0x20): first defined here
+/tmp/ccbVGZ22.o: In function `main':
+Project3_main.cpp:(.text+0x0): multiple definition of `main'
+Project3_main:(.text+0x180): first defined here
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o:(.dtors+0x0): multiple definition of `__DTOR_END__'
+Project3_main:(.dtors+0x8): first defined here
+/usr/bin/ld: warning: Cannot create .eh_frame_hdr section, --eh-frame-hdr ignored.
+/usr/bin/ld: error in Project3_main(.eh_frame); no .eh_frame_hdr table will be created.
+collect2: ld returned 1 exit status
+rabbit ~/workspace/Project_3 21% g++ Project3_main Project3_main.cpp -lm -fopenmp
+Project3_main: In function `_start':
+(.text+0x0): multiple definition of `_start'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o:(.text+0x0): first defined here
+Project3_main: In function `_fini':
+(.fini+0x0): multiple definition of `_fini'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o:(.fini+0x0): first defined here
+Project3_main:(.rodata+0x0): multiple definition of `_IO_stdin_used'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o:(.rodata.cst4+0x0): first defined here
+Project3_main: In function `__data_start':
+(.data+0x0): multiple definition of `__data_start'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o:(.data+0x0): first defined here
+Project3_main:(.rodata+0x8): multiple definition of `__dso_handle'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o:(.rodata+0x0): first defined here
+Project3_main: In function `_init':
+(.init+0x0): multiple definition of `_init'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o:(.init+0x0): first defined here
+/tmp/ccIYVoSG.o:(.bss+0x0): multiple definition of `Array'
+Project3_main:(.bss+0x20): first defined here
+/tmp/ccIYVoSG.o: In function `main':
+Project3_main.cpp:(.text+0x0): multiple definition of `main'
+Project3_main:(.text+0x180): first defined here
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o:(.dtors+0x0): multiple definition of `__DTOR_END__'
+Project3_main:(.dtors+0x8): first defined here
+/usr/bin/ld: warning: Cannot create .eh_frame_hdr section, --eh-frame-hdr ignored.
+/usr/bin/ld: error in Project3_main(.eh_frame); no .eh_frame_hdr table will be created.
+collect2: ld returned 1 exit status
+rabbit ~/workspace/Project_3 22% g++ Project3_main Project3_main.cpp -lm -fopenmp
+Project3_main: In function `_start':
+(.text+0x0): multiple definition of `_start'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o:(.text+0x0): first defined here
+Project3_main: In function `_fini':
+(.fini+0x0): multiple definition of `_fini'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o:(.fini+0x0): first defined here
+Project3_main:(.rodata+0x0): multiple definition of `_IO_stdin_used'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o:(.rodata.cst4+0x0): first defined here
+Project3_main: In function `__data_start':
+(.data+0x0): multiple definition of `__data_start'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o:(.data+0x0): first defined here
+Project3_main:(.rodata+0x8): multiple definition of `__dso_handle'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o:(.rodata+0x0): first defined here
+Project3_main: In function `_init':
+(.init+0x0): multiple definition of `_init'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o:(.init+0x0): first defined here
+/tmp/cciPMCTL.o:(.bss+0x0): multiple definition of `Array'
+Project3_main:(.bss+0x20): first defined here
+/tmp/cciPMCTL.o: In function `main':
+Project3_main.cpp:(.text+0x0): multiple definition of `main'
+Project3_main:(.text+0x180): first defined here
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o:(.dtors+0x0): multiple definition of `__DTOR_END__'
+Project3_main:(.dtors+0x8): first defined here
+/usr/bin/ld: warning: Cannot create .eh_frame_hdr section, --eh-frame-hdr ignored.
+/usr/bin/ld: error in Project3_main(.eh_frame); no .eh_frame_hdr table will be created.
+collect2: ld returned 1 exit status
+rabbit ~/workspace/Project_3 23% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 24% ls -l Project3_main
+-rwxrwx---. 1 parmarn upg56594 8562 May  2 15:34 Project3_main
+rabbit ~/workspace/Project_3 25% ./Project3_main
+Using 1 threads
+and 0 pad
+   Performance = 12327733.98 MegaPads/sec
+rabbit ~/workspace/Project_3 26% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 27% ls -l Project3_main                            -rwxrwx---. 1 parmarn upg56594 8562 May  2 15:36 Project3_main
+rabbit ~/workspace/Project_3 28% ./Project3_main                                Using 1 threads
+and 1 pad
+   Performance = 12156474.69 MegaPads/sec
+rabbit ~/workspace/Project_3 29% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 30% ls -l Project3_main                            -rwxrwx---. 1 parmarn upg56594 8594 May  2 15:37 Project3_main
+rabbit ~/workspace/Project_3 31% ./Project3_main                                Using 1 threads
+and 2 pad
+   Performance = 12267442.04 MegaPads/sec
+rabbit ~/workspace/Project_3 32% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 33% ls -l Project3_main                            -rwxrwx---. 1 parmarn upg56594 8578 May  2 15:37 Project3_main
+rabbit ~/workspace/Project_3 34% ./Project3_main                                Using 1 threads
+and 3 pad
+   Performance = 12293355.57 MegaPads/sec
+rabbit ~/workspace/Project_3 35% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 36% ls -l Project3_main                            -rwxrwx---. 1 parmarn upg56594 8594 May  2 15:39 Project3_main
+rabbit ~/workspace/Project_3 37% ./Project3_main                                Using 1 threads
+and 4 pad
+   Performance = 12338134.96 MegaPads/sec
+rabbit ~/workspace/Project_3 38% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 39% ls -l Project3_main                            -rwxrwx---. 1 parmarn upg56594 8594 May  2 15:40 Project3_main
+rabbit ~/workspace/Project_3 40% ./Project3_main                                Using 1 threads
+and 5 pad
+   Performance = 12386061.80 MegaPads/sec
+rabbit ~/workspace/Project_3 41% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 42% ls -l Project3_main                            -rwxrwx---. 1 parmarn upg56594 8594 May  2 15:41 Project3_main
+rabbit ~/workspace/Project_3 43% ./Project3_main                                Using 1 threads
+and 6 pad
+   Performance = 12247959.29 MegaPads/sec
+rabbit ~/workspace/Project_3 44% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 45% ./Project3_main                                Using 1 threads
+and 6 pad
+^[[A^[[A^[[A^?^?   Performance = 12215245.45 MegaPads/sec
+rabbit ~/workspace/Project_3 46% g++ Project3_main Project3_main.cpp -lm -fopenmp
+Project3_main: In function `_start':
+(.text+0x0): multiple definition of `_start'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o:(.text+0x0): first defined here
+Project3_main: In function `_fini':
+(.fini+0x0): multiple definition of `_fini'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o:(.fini+0x0): first defined here
+Project3_main:(.rodata+0x0): multiple definition of `_IO_stdin_used'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o:(.rodata.cst4+0x0): first defined here
+Project3_main: In function `__data_start':
+(.data+0x0): multiple definition of `__data_start'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o:(.data+0x0): first defined here
+Project3_main:(.rodata+0x8): multiple definition of `__dso_handle'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtbegin.o:(.rodata+0x0): first defined here
+Project3_main: In function `_init':
+(.init+0x0): multiple definition of `_init'
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crti.o:(.init+0x0): first defined here
+/tmp/ccH0qmBR.o:(.bss+0x0): multiple definition of `Array'
+Project3_main:(.bss+0x20): first defined here
+/usr/bin/ld: Warning: size of symbol `Array' changed from 112 in Project3_main to 128 in /tmp/ccH0qmBR.o
+/tmp/ccH0qmBR.o: In function `main':
+Project3_main.cpp:(.text+0x0): multiple definition of `main'
+Project3_main:(.text+0xe4): first defined here
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/crtend.o:(.dtors+0x0): multiple definition of `__DTOR_END__'
+Project3_main:(.dtors+0x8): first defined here
+/usr/bin/ld: warning: Cannot create .eh_frame_hdr section, --eh-frame-hdr ignored.
+/usr/bin/ld: error in Project3_main(.eh_frame); no .eh_frame_hdr table will be created.
+collect2: ld returned 1 exit status
+rabbit ~/workspace/Project_3 47% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace/Project_3 48% ls -l Project3_main                            -rwxrwx---. 1 parmarn upg56594 8522 May  2 15:43 Project3_main
+rabbit ~/workspace/Project_3 49% ./Project3_main                                Using 1 threads
+and 7 pad
+   Performance = 4737284.65 MegaPads/sec
+rabbit ~/workspace/Project_3 50% g++ -o Project3_main Project3_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace/Project_3 51% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 52% ls -l Project3_main                            -rwxrwx---. 1 parmarn upg56594 8578 May  2 15:44 Project3_main
+rabbit ~/workspace/Project_3 53% ./Project3_main                                Using 1 threads
+and 7 pad
+   Performance = 12171040.92 MegaPads/sec
+rabbit ~/workspace/Project_3 54% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 55% ls -l Project3_main                            -rwxrwx---. 1 parmarn upg56594 8594 May  2 15:44 Project3_main
+rabbit ~/workspace/Project_3 56% ./Project3_main                                Using 1 threads
+and 8 pad
+   Performance = 12251892.28 MegaPads/sec
+rabbit ~/workspace/Project_3 57% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 58% ls -l Project3_main                            -rwxrwx---. 1 parmarn upg56594 8594 May  2 15:45 Project3_main
+rabbit ~/workspace/Project_3 59% ./Project3_main                                Using 1 threads
+and 9 pad
+   Performance = 12163760.50 MegaPads/sec
+rabbit ~/workspace/Project_3 60% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 61% ls -l Project3_main                            -rwxrwx---. 1 parmarn upg56594 8610 May  2 15:45 Project3_main
+rabbit ~/workspace/Project_3 62% ./Project3_main                                Using 1 threads
+and 10 pad
+   Performance = 12200505.30 MegaPads/sec
+rabbit ~/workspace/Project_3 63% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 64% ./Project3_main                                Using 1 threads
+and 11 pad
+   Performance = 12183892.29 MegaPads/sec
+rabbit ~/workspace/Project_3 65% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 66% ls -l Project3_main                            -rwxrwx---. 1 parmarn upg56594 8594 May  2 15:46 Project3_main
+rabbit ~/workspace/Project_3 67% ./Project3_main                                Using 1 threads
+and 11 pad
+   Performance = 12142692.72 MegaPads/sec
+rabbit ~/workspace/Project_3 68% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 69% ls -l Project3_main                            -rwxrwx---. 1 parmarn upg56594 8610 May  2 15:47 Project3_main
+rabbit ~/workspace/Project_3 70% ./Project3_main                                Using 1 threads
+and 12 pad
+   Performance = 12307028.67 MegaPads/sec
+rabbit ~/workspace/Project_3 71% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 72% ls -l Project3_main                            -rwxrwx---. 1 parmarn upg56594 8594 May  2 15:48 Project3_main
+rabbit ~/workspace/Project_3 73% ./Project3_main                                Using 1 threads
+and 13 pad
+   Performance = 12288505.63 MegaPads/sec
+rabbit ~/workspace/Project_3 74% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 75% ls -l Project3_main                            -rwxrwx---. 1 parmarn upg56594 8594 May  2 15:48 Project3_main
+rabbit ~/workspace/Project_3 76% ./Project3_main                                Using 1 threads
+and 14 pad
+   Performance = 12311863.27 MegaPads/sec
+rabbit ~/workspace/Project_3 77% g++ -o Project3_main Project3_main.cpp -lm -fopenmp
+rabbit ~/workspace/Project_3 78% ls -l Project3_main                            -rwxrwx---. 1 parmarn upg56594 8578 May  2 15:49 Project3_main
+rabbit ~/workspace/Project_3 79% ./Project3_main                                Using 1 threads
+and 15 pad
+   Performance = 12150894.71 MegaPads/sec
+rabbit ~/workspace/Project_3 80% 

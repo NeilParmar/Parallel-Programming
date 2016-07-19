@@ -1,0 +1,429 @@
+64 bytes from rabbit-mic0.engr.oregonstate.edu (172.31.1.1): icmp_seq=1 ttl=64 time=145 ms
+64 bytes from rabbit-mic0.engr.oregonstate.edu (172.31.1.1): icmp_seq=2 ttl=64 time=0.301 ms
+64 bytes from rabbit-mic0.engr.oregonstate.edu (172.31.1.1): icmp_seq=3 ttl=64 time=0.227 ms
+64 bytes from rabbit-mic0.engr.oregonstate.edu (172.31.1.1): icmp_seq=4 ttl=64 time=0.244 ms
+64 bytes from rabbit-mic0.engr.oregonstate.edu (172.31.1.1): icmp_seq=5 ttl=64 time=0.233 ms
+64 bytes from rabbit-mic0.engr.oregonstate.edu (172.31.1.1): icmp_seq=6 ttl=64 time=0.240 ms
+64 bytes from rabbit-mic0.engr.oregonstate.edu (172.31.1.1): icmp_seq=7 ttl=64 time=0.247 ms
+64 bytes from rabbit-mic0.engr.oregonstate.edu (172.31.1.1): icmp_seq=8 ttl=64 time=0.238 ms
+64 bytes from rabbit-mic0.engr.oregonstate.edu (172.31.1.1): icmp_seq=9 ttl=64 time=0.234 ms
+^C
+--- rabbit-mic0.engr.oregonstate.edu ping statistics ---
+9 packets transmitted, 9 received, 0% packet loss, time 8096ms
+rtt min/avg/max/mdev = 0.227/16.351/145.201/45.555 ms
+rabbit ~ 7% micinfo
+MicInfo Utility Log
+Created Tue Apr 26 20:38:23 2016
+
+
+	System Info
+		HOST OS			: Linux
+		OS Version		: 2.6.32-573.7.1.el6.x86_64
+		Driver Version		: 3.4.2-1
+		MPSS Version		: 3.4.2
+		Host Physical Memory	: 65858 MB
+
+Device No: 0, Device Name: mic0
+
+	Version
+		Flash Version 		 : 2.1.02.0390
+		SMC Firmware Version	 : 1.16.5078
+		SMC Boot Loader Version	 : 1.8.4326
+		uOS Version 		 : 2.6.38.8+mpss3.4.2
+		Device Serial Number 	 : ADKC31600731
+
+	Board
+		Vendor ID 		 : 0x8086
+		Device ID 		 : 0x225e
+		Subsystem ID 		 : 0x2500
+		Coprocessor Stepping ID	 : 3
+		PCIe Width 		 : Insufficient Privileges
+		PCIe Speed 		 : Insufficient Privileges
+		PCIe Max payload size	 : Insufficient Privileges
+		PCIe Max read req size	 : Insufficient Privileges
+		Coprocessor Model	 : 0x01
+		Coprocessor Model Ext	 : 0x00
+		Coprocessor Type	 : 0x00
+		Coprocessor Family	 : 0x0b
+		Coprocessor Family Ext	 : 0x00
+		Coprocessor Stepping 	 : B1
+		Board SKU 		 : B1PRQ-31S1P
+		ECC Mode 		 : Enabled
+		SMC HW Revision 	 : Product 300W Passive CS
+
+	Cores
+		Total No of Active Cores : 57
+		Voltage 		 : 1088000 uV
+		Frequency		 : 1100000 kHz
+
+	Thermal
+		Fan Speed Control 	 : N/A
+		Fan RPM 		 : N/A
+		Fan PWM 		 : N/A
+		Die Temp		 : 46 C
+
+	GDDR
+		GDDR Vendor		 : Elpida
+		GDDR Version		 : 0x1
+		GDDR Density		 : 2048 Mb
+		GDDR Size		 : 7936 MB
+		GDDR Technology		 : GDDR5 
+		GDDR Speed		 : 5.000000 GT/s 
+		GDDR Frequency		 : 2500000 kHz
+		GDDR Voltage		 : 1501000 uV
+rabbit ~ 8% miccheck
+MicCheck 3.4.2-r1
+Copyright 2013 Intel Corporation All Rights Reserved
+
+Executing default tests for host
+  Test 0: Check number of devices the OS sees in the system ... pass
+  Test 1: Check mic driver is loaded ... pass
+  Test 2: Check number of devices driver sees in the system ... pass
+  Test 3: Check mpssd daemon is running ... pass
+Executing default tests for device: 0
+  Test 4 (mic0): Check device is in online state and its postcode is FF ... pass
+  Test 5 (mic0): Check ras daemon is available in device ... pass
+  Test 6 (mic0): Check running flash version is correct ... pass
+  Test 7 (mic0): Check running SMC firmware version is correct ... pass
+
+Status: OK
+rabbit ~ 9% cd work
+workspace/     workspace.zip  
+rabbit ~ 9% cd workspace
+rabbit ~/workspace 10% ls
+Height.cpp~       project0_t4.cpp~       Project 2           Project3_main.cpp
+impdoc1.cpp~      Project 1              Project2_main.cpp~  Project3_main.cpp~
+Project 0         Project1_functions.h~  Project 2.zip       Project_def.cpp~
+project0_t1.cpp~  Project1_main.cpp~     Project3_main
+rabbit ~/workspace 11% cd Project 2
+cd: Too many arguments.
+rabbit ~/workspace 12% cd Project 
+Project 0/             Project 2/             Project3_main.cpp~ 
+Project 1/             Project2_main.cpp~     Project3_main.cpp 
+Project1_functions.h~  Project 2.zip          Project_def.cpp~ 
+Project1_main.cpp~     Project3_main*         
+rabbit ~/workspace 12% cd Project 2/
+cd: Too many arguments.
+rabbit ~/workspace 13% cd Project/ 2/
+cd: Too many arguments.
+rabbit ~/workspace 14% cd Projec
+Project 0/             Project 2/             Project3_main.cpp~ 
+Project 1/             Project2_main.cpp~     Project3_main.cpp 
+Project1_functions.h~  Project 2.zip          Project_def.cpp~ 
+Project1_main.cpp~     Project3_main*         
+rabbit ~/workspace 14% cd Project_2
+rabbit ~/workspace/Project_2 15% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -align -qopt-report=3 -qopt-report-phase=vec
+icpc: Command not found.
+rabbit ~/workspace/Project_2 16% icpc
+icpc: Command not found.
+rabbit ~/workspace/Project_2 17% ic
+ic_craft   icedax     icfb-5141  iconv      
+iceauth    icfb       icontopbm  icu-config 
+rabbit ~/workspace/Project_2 17% icpc -mmic -o Project2_main Project2_main.cpp -lm -openmp -no-vec
+icpc: Command not found.
+rabbit ~/workspace/Project_2 18% miccheck
+MicCheck 3.4.2-r1
+Copyright 2013 Intel Corporation All Rights Reserved
+
+Executing default tests for host
+  Test 0: Check number of devices the OS sees in the system ... pass
+  Test 1: Check mic driver is loaded ... pass
+  Test 2: Check number of devices driver sees in the system ... pass
+  Test 3: Check mpssd daemon is running ... pass
+Executing default tests for device: 0
+  Test 4 (mic0): Check device is in online state and its postcode is FF ... pass
+  Test 5 (mic0): Check ras daemon is available in device ... pass
+  Test 6 (mic0): Check running flash version is correct ... pass
+  Test 7 (mic0): Check running SMC firmware version is correct ... pass
+
+Status: OK
+rabbit ~/workspace/Project_2 19% icpc
+icpc: Command not found.
+rabbit ~/workspace/Project_2 20% g++
+g++: no input files
+rabbit ~/workspace/Project_2 21% cd ..
+rabbit ~/workspace 22% icpc 
+icpc: Command not found.
+rabbit ~/workspace 23% cd ..
+rabbit ~ 24% icpc
+icpc: Command not found.
+rabbit ~ 25% cd workspace
+rabbit ~/workspace 26% cd Project2_main
+Project2_main: No such file or directory.
+rabbit ~/workspace 27% cd Project_2
+rabbit ~/workspace/Project_2 28% micsmc -a
+
+mic0 (info):
+   Device Series: ........... Intel(R) Xeon Phi(TM) coprocessor x100 family
+   Device ID: ............... 0x225e
+   Number of Cores: ......... 57
+   OS Version: .............. 2.6.38.8+mpss3.4.2
+   Flash Version: ........... 2.1.02.0390
+   Driver Version: .......... 3.4.2-1 (root@rabbit.engr.oregonstate.edu)
+   Stepping: ................ 0x3
+   Substepping: ............. 0x0
+
+mic0 (temp):
+   Cpu Temp: ................ 42.00 C
+   Memory Temp: ............. 31.00 C
+   Fan-In Temp: ............. 28.00 C
+   Fan-Out Temp: ............ 32.00 C
+   Core Rail Temp: .......... 33.00 C
+   Uncore Rail Temp: ........ 31.00 C
+   Memory Rail Temp: ........ 31.00 C
+
+mic0 (freq):
+   Core Frequency: .......... 1.10 GHz
+   Total Power: ............. 41.00 Watts
+   Low Power Limit: ......... 283.00 Watts
+   High Power Limit: ........ 337.00 Watts
+   Physical Power Limit: .... 357.00 Watts
+
+mic0 (mem):
+   Free Memory: ............. 7349.86 MB
+   Total Memory: ............ 7698.83 MB
+   Memory Usage: ............ 348.96 MB
+
+mic0 (cores):
+   Device Utilization: User:   0.00%,   System:   0.04%,   Idle:  99.96%
+   Per Core Utilization (57 cores in use)
+      Core #1:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #2:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #3:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #4:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #5:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #6:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #7:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #8:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #9:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #10:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #11:  User:   0.00%,   System:   0.27%,   Idle:  99.73%
+      Core #12:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #13:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #14:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #15:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #16:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #17:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #18:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #19:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #20:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #21:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #22:  User:   0.00%,   System:   0.27%,   Idle:  99.73%
+      Core #23:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #24:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #25:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #26:  User:   0.00%,   System:   0.27%,   Idle:  99.73%
+      Core #27:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #28:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #29:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #30:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #31:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #32:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #33:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #34:  User:   0.00%,   System:   0.27%,   Idle:  99.73%
+      Core #35:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #36:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #37:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #38:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #39:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #40:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #41:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #42:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #43:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #44:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #45:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #46:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #47:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #48:  User:   0.00%,   System:   0.27%,   Idle:  99.73%
+      Core #49:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #50:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #51:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #52:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #53:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #54:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #55:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #56:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #57:  User:   0.00%,   System:   1.06%,   Idle:  98.94%
+rabbit ~/workspace/Project_2 29% icpc -o
+icpc: Command not found.
+rabbit ~/workspace/Project_2 30% setenv INTEL_LICENSE_FILE 28518@linlic.engr.oregonstate.edu
+rabbit ~/workspace/Project_2 31% setenv SINK_LD_LIBRARY_PATH /nfs/guille/a2/rh80apps/intel/studio.2013-sp1/composer_xe_2015.0.090/compiler/lib/mic
+rabbit ~/workspace/Project_2 32% setenv ICCPATH /nfs/guille/a2/rh80apps/intel/studio.2013-sp1/composer_xe_2015/bin
+rabbit ~/workspace/Project_2 33% setenv ICCPATH /nfs/guille/a2/rh80apps/intel/studio.2013-sp1/composer_xe_2015/bin/
+rabbit ~/workspace/Project_2 34% set path=($path$ICCPATH)
+rabbit ~/workspace/Project_2 35% source /nfs/guille/a2/rh80apps/intel/studio.2013-sp1/bin/iccvars.csh intel64
+rabbit ~/workspace/Project_2 36% icpc
+icpc: command line error: no files specified; for help type "icpc -help"
+rabbit ~/workspace/Project_2 37% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 38% micnativeloadex Project2_main
+Have 224 processors.
+Threads: 5   Performance =     5.53 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 39% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 40% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 5   Performance =     5.12 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 41% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 42% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 5   Performance =     5.49 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 43% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 44% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 5   Performance =     5.33 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 45% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 46% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 5   Performance =     5.61 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 47% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 48% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 1   Performance =     3.63 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 49% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 50% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 2   Performance =     6.13 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 51% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 52% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 2   Performance =     7.08 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 53% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 54% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 4   Performance =    13.61 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 55% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 56% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 4   Performance =    13.60 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 57% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 58% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 5   Performance =    16.48 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 59% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 60% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 61% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 1   Performance =     3.64 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 62% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 63% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 1   Performance =     3.63 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 64% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 65% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 3   Performance =    10.05 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 66% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 67% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 3   Performance =    10.08 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 68% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 69% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 2   Performance =     7.01 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 70% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 71% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 2   Performance =     7.02 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 72% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 73% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 4   Performance =    13.29 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 74% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 75% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 4   Performance =    13.10 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 76% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 77% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 5   Performance =    16.25 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 78% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 79% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 1   Performance =     3.24 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 80% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 81% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 1   Performance =     3.23 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 82% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 83% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 2   Performance =     4.28 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 84% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 85% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 3   Performance =     4.96 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 86% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 87% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 4   Performance =     5.25 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 88% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 89% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 4   Performance =     5.01 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 90% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 91% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 5   Performance =     5.34 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 92% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 93% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 1   Performance =     3.21 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 94% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 95% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 1   Performance =     3.21 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 96% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 97% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 2   Performance =     2.55 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 98% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 99% micnativeloadex Project2_main                  Have 224 processors.
+Threads: 2   Performance =     2.31 MegaHeights/sec
+^[[A^[[A
+rabbit ~/workspace/Project_2 100% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 101% micnativeloadex Project2_main                 Have 224 processors.
+Threads: 3   Performance =     3.00 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 102% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 103% micnativeloadex Project2_main                 Have 224 processors.
+Threads: 3   Performance =     2.35 MegaHeights/sec
+^[[A^[[A
+rabbit ~/workspace/Project_2 104% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 105% micnativeloadex Project2_main                 Have 224 processors.
+Threads: 4   Performance =     2.30 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 106% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 107% micnativeloadex Project2_main                 Have 224 processors.
+Threads: 4   Performance =     2.90 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 108% icpc -mmic -o Project2_main Project2_main.cpp -O3 -lm -openmp -no-vec
+rabbit ~/workspace/Project_2 109% micnativeloadex Project2_main                 Have 224 processors.
+Threads: 5   Performance =     2.13 MegaHeights/sec
+
+rabbit ~/workspace/Project_2 110% exit
+logout
+
+Connection to rabbit.engr.oregonstate.edu closed.                               
+dear119-12 ~ 7%                                                                 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                

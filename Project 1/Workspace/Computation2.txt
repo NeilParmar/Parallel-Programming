@@ -1,0 +1,356 @@
+dear119-16 ~/workspace 184% g++ -o Project1_main Project1_main.cpp -lm -fopenmp
+dear119-16 ~/workspace 185% ls -l Project1_main
+-rwxrwx---. 1 parmarn upg56594 10673 Apr 16 15:02 Project1_main
+dear119-16 ~/workspace 186% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 48690.41    Performance =    46.21 MegaHeights/sec
+dear119-16 ~/workspace 187% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 42615.72    Performance =    52.80 MegaHeights/sec
+dear119-16 ~/workspace 188% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 41474.77    Performance =    54.25 MegaHeights/sec
+dear119-16 ~/workspace 189% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 45696.04    Performance =    49.24 MegaHeights/sec
+dear119-16 ~/workspace 190% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 48962.71    Performance =    45.95 MegaHeights/sec
+dear119-16 ~/workspace 191% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 49015.71    Performance =    45.90 MegaHeights/sec
+dear119-16 ~/workspace 192% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 45352.31    Performance =    49.61 MegaHeights/sec
+dear119-16 ~/workspace 193% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 47685.42    Performance =    47.18 MegaHeights/sec
+dear119-16 ~/workspace 194% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 46335.31    Performance =    48.56 MegaHeights/sec
+dear119-16 ~/workspace 195% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 44881.85    Performance =    50.13 MegaHeights/sec
+dear119-16 ~/workspace 196% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 47846.06    Performance =    47.03 MegaHeights/sec
+dear119-16 ~/workspace 197% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 48905.61    Performance =    46.01 MegaHeights/sec
+dear119-16 ~/workspace 198% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 45380.94    Performance =    49.58 MegaHeights/sec
+dear119-16 ~/workspace 199% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 46247.51    Performance =    48.65 MegaHeights/sec
+dear119-16 ~/workspace 200% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 44816.17    Performance =    50.21 MegaHeights/sec
+dear119-16 ~/workspace 201% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 44886.32    Performance =    50.13 MegaHeights/sec
+dear119-16 ~/workspace 202% 
+dear119-16 ~/workspace 202% 
+dear119-16 ~/workspace 202% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 44486.79    Performance =    50.58 MegaHeights/sec
+dear119-16 ~/workspace 203% 
+dear119-16 ~/workspace 203% 
+dear119-16 ~/workspace 203% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 48714.60    Performance =    46.19 MegaHeights/sec
+dear119-16 ~/workspace 204% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 48319.58    Performance =    46.56 MegaHeights/sec
+dear119-16 ~/workspace 205% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 43434.66    Performance =    51.80 MegaHeights/sec
+dear119-16 ~/workspace 206% ./Project1_main
+Using 5 threads and 1500 NUMS    Total Volume =    14.06    Time = 44550.23    Performance =    50.50 MegaHeights/sec
+dear119-16 ~/workspace 207% g++ -o Project1_main Project1_main.cpp -lm -fopenmp
+dear119-16 ~/workspace 208% ls -l Project1_main
+-rwxrwx---. 1 parmarn upg56594 10545 Apr 16 15:03 Project1_main
+dear119-16 ~/workspace 209% ./Project1_main
+Using 6 threads and 4 NUMS    Total Volume =    13.83    Time =   648.58    Performance =     0.02 MegaHeights/sec
+dear119-16 ~/workspace 210% ./Project1_main
+Using 6 threads and 4 NUMS    Total Volume =    13.83    Time =   200.68    Performance =     0.08 MegaHeights/sec
+dear119-16 ~/workspace 211% ./Project1_main
+Using 6 threads and 4 NUMS    Total Volume =    13.83    Time =   188.32    Performance =     0.08 MegaHeights/sec
+dear119-16 ~/workspace 212% ./Project1_main
+Using 6 threads and 4 NUMS    Total Volume =    13.83    Time =   193.35    Performance =     0.08 MegaHeights/sec
+dear119-16 ~/workspace 213% ./Project1_main
+Using 6 threads and 4 NUMS    Total Volume =    13.83    Time =   211.79    Performance =     0.08 MegaHeights/sec
+dear119-16 ~/workspace 214% ./Project1_main
+Using 6 threads and 4 NUMS    Total Volume =    13.83    Time =   193.01    Performance =     0.08 MegaHeights/sec
+dear119-16 ~/workspace 215% g++ -o Project1_main Project1_main.cpp -lm -fopenmp
+dear119-16 ~/workspace 216% ls -l Project1_main
+-rwxrwx---. 1 parmarn upg56594 10689 Apr 16 15:04 Project1_main
+dear119-16 ~/workspace 217% ./Project1_main
+Using 6 threads and 200 NUMS    Total Volume =    14.06    Time =  1649.97    Performance =    24.24 MegaHeights/sec
+dear119-16 ~/workspace 218% g++ -o Project1_main Project1_main.cpp -lm -fopenmp
+dear119-16 ~/workspace 219% ls -l Project1_main
+-rwxrwx---. 1 parmarn upg56594 10657 Apr 16 15:05 Project1_main
+dear119-16 ~/workspace 220% ./Project1_main
+Using 6 threads and 500 NUMS    Total Volume =    14.06    Time =  4624.15    Performance =    54.06 MegaHeights/sec
+dear119-16 ~/workspace 221% ./Project1_main
+Using 6 threads and 500 NUMS    Total Volume =    14.06    Time =  8298.75    Performance =    30.13 MegaHeights/sec
+dear119-16 ~/workspace 222% ./Project1_main
+Using 6 threads and 500 NUMS    Total Volume =    14.06    Time =  4096.19    Performance =    61.03 MegaHeights/sec
+dear119-16 ~/workspace 223% ./Project1_main
+Using 6 threads and 500 NUMS    Total Volume =    14.06    Time =  5006.22    Performance =    49.94 MegaHeights/sec
+dear119-16 ~/workspace 224% ./Project1_main
+Using 6 threads and 500 NUMS    Total Volume =    14.06    Time =  6310.25    Performance =    39.62 MegaHeights/sec
+dear119-16 ~/workspace 225% ./Project1_main
+Using 6 threads and 500 NUMS    Total Volume =    14.06    Time =  4920.51    Performance =    50.81 MegaHeights/sec
+dear119-16 ~/workspace 226% ./Project1_main
+Using 6 threads and 500 NUMS    Total Volume =    14.06    Time =  4042.04    Performance =    61.85 MegaHeights/sec
+dear119-16 ~/workspace 227% ./Project1_main
+Using 6 threads and 500 NUMS    Total Volume =    14.06    Time =  5161.37    Performance =    48.44 MegaHeights/sec
+dear119-16 ~/workspace 228% ./Project1_main
+Using 6 threads and 500 NUMS    Total Volume =    14.06    Time =  8569.44    Performance =    29.17 MegaHeights/sec
+dear119-16 ~/workspace 229% ./Project1_main
+Using 6 threads and 500 NUMS    Total Volume =    14.06    Time =  4139.59    Performance =    60.39 MegaHeights/sec
+dear119-16 ~/workspace 230% ./Project1_main
+Using 6 threads and 500 NUMS    Total Volume =    14.06    Time =  8415.15    Performance =    29.71 MegaHeights/sec
+dear119-16 ~/workspace 231% ./Project1_main
+Using 6 threads and 500 NUMS    Total Volume =    14.06    Time =  4078.68    Performance =    61.29 MegaHeights/sec
+dear119-16 ~/workspace 232% g++ -o Project1_main Project1_main.cpp -lm -fopenmp
+dear119-16 ~/workspace 233% ls -l Project1_main
+-rwxrwx---. 1 parmarn upg56594 10657 Apr 16 15:07 Project1_main
+dear119-16 ~/workspace 234% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time = 10574.08    Performance =    46.34 MegaHeights/sec
+dear119-16 ~/workspace 235% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time = 12039.82    Performance =    40.70 MegaHeights/sec
+dear119-16 ~/workspace 236% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time =  8674.67    Performance =    56.49 MegaHeights/sec
+dear119-16 ~/workspace 237% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time = 11335.16    Performance =    43.23 MegaHeights/sec
+dear119-16 ~/workspace 238% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time =  8323.79    Performance =    58.87 MegaHeights/sec
+dear119-16 ~/workspace 239% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time =  9486.67    Performance =    51.65 MegaHeights/sec
+dear119-16 ~/workspace 240% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time =  8376.86    Performance =    58.49 MegaHeights/sec
+dear119-16 ~/workspace 241% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time = 10565.73    Performance =    46.38 MegaHeights/sec
+dear119-16 ~/workspace 242% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time = 12562.33    Performance =    39.01 MegaHeights/sec
+dear119-16 ~/workspace 243% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time = 10410.72    Performance =    47.07 MegaHeights/sec
+dear119-16 ~/workspace 244% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time = 11870.43    Performance =    41.28 MegaHeights/sec
+dear119-16 ~/workspace 245% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time =  8494.52    Performance =    57.68 MegaHeights/sec
+dear119-16 ~/workspace 246% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time = 10825.86    Performance =    45.26 MegaHeights/sec
+dear119-16 ~/workspace 247% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time = 13158.14    Performance =    37.24 MegaHeights/sec
+dear119-16 ~/workspace 248% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time =  9578.34    Performance =    51.16 MegaHeights/sec
+dear119-16 ~/workspace 249% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time = 10699.09    Performance =    45.80 MegaHeights/sec
+dear119-16 ~/workspace 250% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time = 13081.98    Performance =    37.46 MegaHeights/sec
+dear119-16 ~/workspace 251% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time = 11800.50    Performance =    41.52 MegaHeights/sec
+dear119-16 ~/workspace 252% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time =  7977.97    Performance =    61.42 MegaHeights/sec
+dear119-16 ~/workspace 253% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time = 10409.38    Performance =    47.07 MegaHeights/sec
+dear119-16 ~/workspace 254% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time =  8299.25    Performance =    59.04 MegaHeights/sec
+dear119-16 ~/workspace 255% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time = 11332.90    Performance =    43.24 MegaHeights/sec
+dear119-16 ~/workspace 256% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time =  9733.46    Performance =    50.34 MegaHeights/sec
+dear119-16 ~/workspace 257% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time =  9450.40    Performance =    51.85 MegaHeights/sec
+dear119-16 ~/workspace 258% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time =  8755.64    Performance =    55.96 MegaHeights/sec
+dear119-16 ~/workspace 259% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time = 11346.96    Performance =    43.18 MegaHeights/sec
+dear119-16 ~/workspace 260% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time = 11756.78    Performance =    41.68 MegaHeights/sec
+dear119-16 ~/workspace 261% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time =  8071.97    Performance =    60.70 MegaHeights/sec
+dear119-16 ~/workspace 262% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time =  9577.24    Performance =    51.16 MegaHeights/sec
+dear119-16 ~/workspace 263% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time =  9299.85    Performance =    52.69 MegaHeights/sec
+dear119-16 ~/workspace 264% ./Project1_main
+Using 6 threads and 700 NUMS    Total Volume =    14.06    Time =  8426.41    Performance =    58.15 MegaHeights/sec
+dear119-16 ~/workspace 265% g++ -o Project1_main Project1_main.cpp -lm -fopenmp
+dear119-16 ~/workspace 266% ls -l Project1_main
+-rwxrwx---. 1 parmarn upg56594 10649 Apr 16 15:08 Project1_main
+dear119-16 ~/workspace 267% ./Project1_main
+Using 6 threads and 1000 NUMS    Total Volume =    14.06    Time = 20526.35    Performance =    48.72 MegaHeights/sec
+dear119-16 ~/workspace 268% ./Project1_main
+Using 6 threads and 1000 NUMS    Total Volume =    14.06    Time = 19650.78    Performance =    50.89 MegaHeights/sec
+dear119-16 ~/workspace 269% ./Project1_main
+Using 6 threads and 1000 NUMS    Total Volume =    14.06    Time = 16666.33    Performance =    60.00 MegaHeights/sec
+dear119-16 ~/workspace 270% ./Project1_main
+Using 6 threads and 1000 NUMS    Total Volume =    14.06    Time = 18412.25    Performance =    54.31 MegaHeights/sec
+dear119-16 ~/workspace 271% ./Project1_main
+Using 6 threads and 1000 NUMS    Total Volume =    14.06    Time = 19432.18    Performance =    51.46 MegaHeights/sec
+dear119-16 ~/workspace 272% ./Project1_main
+Using 6 threads and 1000 NUMS    Total Volume =    14.06    Time = 20850.77    Performance =    47.96 MegaHeights/sec
+dear119-16 ~/workspace 273% ./Project1_main
+Using 6 threads and 1000 NUMS    Total Volume =    14.06    Time = 17724.04    Performance =    56.42 MegaHeights/sec
+dear119-16 ~/workspace 274% ./Project1_main
+Using 6 threads and 1000 NUMS    Total Volume =    14.06    Time = 20883.61    Performance =    47.88 MegaHeights/sec
+dear119-16 ~/workspace 275% ./Project1_main
+Using 6 threads and 1000 NUMS    Total Volume =    14.06    Time = 20068.54    Performance =    49.83 MegaHeights/sec
+dear119-16 ~/workspace 276% ./Project1_main
+Using 6 threads and 1000 NUMS    Total Volume =    14.06    Time = 19646.91    Performance =    50.90 MegaHeights/sec
+dear119-16 ~/workspace 277% g++ -o Project1_main Project1_main.cpp -lm -fopenmp
+dear119-16 ~/workspace 278% ls -l Project1_main
+-rwxrwx---. 1 parmarn upg56594 10673 Apr 16 15:10 Project1_main
+dear119-16 ~/workspace 279% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.06    Time = 41370.01    Performance =    54.39 MegaHeights/sec
+dear119-16 ~/workspace 280% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.06    Time = 39864.76    Performance =    56.44 MegaHeights/sec
+dear119-16 ~/workspace 281% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.07    Time = 38813.54    Performance =    57.97 MegaHeights/sec
+dear119-16 ~/workspace 282% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.06    Time = 36551.68    Performance =    61.56 MegaHeights/sec
+dear119-16 ~/workspace 283% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.06    Time = 37230.89    Performance =    60.43 MegaHeights/sec
+dear119-16 ~/workspace 284% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.06    Time = 36456.95    Performance =    61.72 MegaHeights/sec
+dear119-16 ~/workspace 285% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.06    Time = 36349.01    Performance =    61.90 MegaHeights/sec
+dear119-16 ~/workspace 286% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.06    Time = 35802.37    Performance =    62.85 MegaHeights/sec
+dear119-16 ~/workspace 287% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.06    Time = 40602.86    Performance =    55.41 MegaHeights/sec
+dear119-16 ~/workspace 288% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.06    Time = 39497.00    Performance =    56.97 MegaHeights/sec
+dear119-16 ~/workspace 289% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.06    Time = 39791.54    Performance =    56.54 MegaHeights/sec
+dear119-16 ~/workspace 290% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.06    Time = 37582.22    Performance =    59.87 MegaHeights/sec
+dear119-16 ~/workspace 291% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.06    Time = 39816.75    Performance =    56.51 MegaHeights/sec
+dear119-16 ~/workspace 292% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.06    Time = 38641.66    Performance =    58.23 MegaHeights/sec
+dear119-16 ~/workspace 293% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.06    Time = 38150.22    Performance =    58.98 MegaHeights/sec
+dear119-16 ~/workspace 294% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.06    Time = 36143.93    Performance =    62.25 MegaHeights/sec
+dear119-16 ~/workspace 295% ./Project1_main
+Using 6 threads and 1500 NUMS    Total Volume =    14.06    Time = 40284.89    Performance =    55.85 MegaHeights/sec
+dear119-16 ~/workspace 296% g++ -o Project1_main Project1_main.cpp -lm -fopenmp
+dear119-16 ~/workspace 297% ls -l Project1_main
+-rwxrwx---. 1 parmarn upg56594 10545 Apr 16 15:11 Project1_main
+dear119-16 ~/workspace 298% ./Project1_main
+Using 7 threads and 4 NUMS    Total Volume =    13.83    Time =   214.41    Performance =     0.07 MegaHeights/sec
+dear119-16 ~/workspace 299% ./Project1_main
+Using 7 threads and 4 NUMS    Total Volume =    13.83    Time =   221.17    Performance =     0.07 MegaHeights/sec
+dear119-16 ~/workspace 300% ./Project1_main
+Using 7 threads and 4 NUMS    Total Volume =    13.83    Time =   201.83    Performance =     0.08 MegaHeights/sec
+dear119-16 ~/workspace 301% ./Project1_main
+Using 7 threads and 4 NUMS    Total Volume =    13.83    Time =   213.53    Performance =     0.07 MegaHeights/sec
+dear119-16 ~/workspace 302% ./Project1_main
+Using 7 threads and 4 NUMS    Total Volume =    13.83    Time =   200.67    Performance =     0.08 MegaHeights/sec
+dear119-16 ~/workspace 303% ./Project1_main
+Using 7 threads and 4 NUMS    Total Volume =    13.83    Time =   214.75    Performance =     0.07 MegaHeights/sec
+dear119-16 ~/workspace 304% g++ -o Project1_main Project1_main.cpp -lm -fopenmp
+dear119-16 ~/workspace 305% ls -l Project1_main
+-rwxrwx---. 1 parmarn upg56594 10689 Apr 16 15:12 Project1_main
+dear119-16 ~/workspace 306% ./Project1_main
+Using 7 threads and 200 NUMS    Total Volume =    14.06    Time =   661.05    Performance =    60.51 MegaHeights/sec
+dear119-16 ~/workspace 307% ./Project1_main
+Using 7 threads and 200 NUMS    Total Volume =    14.06    Time =  1403.57    Performance =    28.50 MegaHeights/sec
+dear119-16 ~/workspace 308% ./Project1_main
+Using 7 threads and 200 NUMS    Total Volume =    14.06    Time =  1470.47    Performance =    27.20 MegaHeights/sec
+dear119-16 ~/workspace 309% ./Project1_main
+Using 7 threads and 200 NUMS    Total Volume =    14.06    Time =  1474.33    Performance =    27.13 MegaHeights/sec
+dear119-16 ~/workspace 310% ./Project1_main
+Using 7 threads and 200 NUMS    Total Volume =    14.06    Time =   637.76    Performance =    62.72 MegaHeights/sec
+dear119-16 ~/workspace 311% ./Project1_main
+Using 7 threads and 200 NUMS    Total Volume =    14.06    Time =  1476.34    Performance =    27.09 MegaHeights/sec
+dear119-16 ~/workspace 312% ./Project1_main
+Using 7 threads and 200 NUMS    Total Volume =    14.06    Time =   640.89    Performance =    62.41 MegaHeights/sec
+dear119-16 ~/workspace 313% g++ -o Project1_main Project1_main.cpp -lm -fopenmp
+dear119-16 ~/workspace 314% ls -l Project1_main
+-rwxrwx---. 1 parmarn upg56594 10657 Apr 16 15:13 Project1_main
+dear119-16 ~/workspace 315% ./Project1_main
+Using 7 threads and 500 NUMS    Total Volume =    14.06    Time =  6952.25    Performance =    35.96 MegaHeights/sec
+dear119-16 ~/workspace 316% ./Project1_main
+Using 7 threads and 500 NUMS    Total Volume =    14.06    Time =  7206.19    Performance =    34.69 MegaHeights/sec
+dear119-16 ~/workspace 317% ./Project1_main
+Using 7 threads and 500 NUMS    Total Volume =    14.06    Time =  5185.06    Performance =    48.22 MegaHeights/sec
+dear119-16 ~/workspace 318% ./Project1_main
+Using 7 threads and 500 NUMS    Total Volume =    14.06    Time =  3854.77    Performance =    64.85 MegaHeights/sec
+dear119-16 ~/workspace 319% ./Project1_main
+Using 7 threads and 500 NUMS    Total Volume =    14.06    Time =  5749.00    Performance =    43.49 MegaHeights/sec
+dear119-16 ~/workspace 320% ./Project1_main
+Using 7 threads and 500 NUMS    Total Volume =    14.06    Time =  8019.44    Performance =    31.17 MegaHeights/sec
+dear119-16 ~/workspace 321% ./Project1_main
+Using 7 threads and 500 NUMS    Total Volume =    14.06    Time =  7272.92    Performance =    34.37 MegaHeights/sec
+dear119-16 ~/workspace 322% ./Project1_main
+Using 7 threads and 500 NUMS    Total Volume =    14.06    Time =  5993.25    Performance =    41.71 MegaHeights/sec
+dear119-16 ~/workspace 323% ./Project1_main
+Using 7 threads and 500 NUMS    Total Volume =    14.06    Time =  6049.10    Performance =    41.33 MegaHeights/sec
+dear119-16 ~/workspace 324% g++ -o Project1_main Project1_main.cpp -lm -fopenmp
+dear119-16 ~/workspace 325% ls -l Project1_main
+-rwxrwx---. 1 parmarn upg56594 10657 Apr 16 15:14 Project1_main
+dear119-16 ~/workspace 326% ./Project1_main
+Using 7 threads and 700 NUMS    Total Volume =    14.06    Time =  7143.97    Performance =    68.59 MegaHeights/sec
+dear119-16 ~/workspace 327% ./Project1_main
+Using 7 threads and 700 NUMS    Total Volume =    14.06    Time =  9571.57    Performance =    51.19 MegaHeights/sec
+dear119-16 ~/workspace 328% ./Project1_main
+Using 7 threads and 700 NUMS    Total Volume =    14.06    Time =  8331.52    Performance =    58.81 MegaHeights/sec
+dear119-16 ~/workspace 329% ./Project1_main
+Using 7 threads and 700 NUMS    Total Volume =    14.06    Time =  9554.17    Performance =    51.29 MegaHeights/sec
+dear119-16 ~/workspace 330% ./Project1_main
+Using 7 threads and 700 NUMS    Total Volume =    14.06    Time = 10588.31    Performance =    46.28 MegaHeights/sec
+dear119-16 ~/workspace 331% ./Project1_main
+Using 7 threads and 700 NUMS    Total Volume =    14.06    Time = 11638.48    Performance =    42.10 MegaHeights/sec
+dear119-16 ~/workspace 332% ./Project1_main
+Using 7 threads and 700 NUMS    Total Volume =    14.06    Time =  9413.81    Performance =    52.05 MegaHeights/sec
+dear119-16 ~/workspace 333% ./Project1_main
+Using 7 threads and 700 NUMS    Total Volume =    14.06    Time =  9674.98    Performance =    50.65 MegaHeights/sec
+dear119-16 ~/workspace 334% ./Project1_main
+Using 7 threads and 700 NUMS    Total Volume =    14.06    Time =  8308.60    Performance =    58.98 MegaHeights/sec
+dear119-16 ~/workspace 335% ./Project1_main
+Using 7 threads and 700 NUMS    Total Volume =    14.06    Time = 11825.50    Performance =    41.44 MegaHeights/sec
+dear119-16 ~/workspace 336% ./Project1_main
+Using 7 threads and 700 NUMS    Total Volume =    14.06    Time =  8530.90    Performance =    57.44 MegaHeights/sec
+dear119-16 ~/workspace 337% ./Project1_main
+Using 7 threads and 700 NUMS    Total Volume =    14.06    Time = 11755.13    Performance =    41.68 MegaHeights/sec
+dear119-16 ~/workspace 338% ./Project1_main
+Using 7 threads and 700 NUMS    Total Volume =    14.06    Time = 11684.46    Performance =    41.94 MegaHeights/sec
+dear119-16 ~/workspace 339% ./Project1_main
+Using 7 threads and 700 NUMS    Total Volume =    14.06    Time =  9459.68    Performance =    51.80 MegaHeights/sec
+dear119-16 ~/workspace 340% ./Project1_main
+Using 7 threads and 700 NUMS    Total Volume =    14.06    Time =  8213.94    Performance =    59.65 MegaHeights/sec
+dear119-16 ~/workspace 341% ./Project1_main
+Using 7 threads and 700 NUMS    Total Volume =    14.06    Time =  8420.50    Performance =    58.19 MegaHeights/sec
+dear119-16 ~/workspace 342% g++ -o Project1_main Project1_main.cpp -lm -fopenmp
+dear119-16 ~/workspace 343% ls -l Project1_main
+-rwxrwx---. 1 parmarn upg56594 10649 Apr 16 15:15 Project1_main
+dear119-16 ~/workspace 344% ./Project1_main
+Using 7 threads and 1000 NUMS    Total Volume =    14.06    Time = 16875.85    Performance =    59.26 MegaHeights/sec
+dear119-16 ~/workspace 345% ./Project1_main
+Using 7 threads and 1000 NUMS    Total Volume =    14.06    Time = 16248.73    Performance =    61.54 MegaHeights/sec
+dear119-16 ~/workspace 346% ./Project1_main
+Using 7 threads and 1000 NUMS    Total Volume =    14.06    Time = 15559.46    Performance =    64.27 MegaHeights/sec
+dear119-16 ~/workspace 347% ./Project1_main
+Using 7 threads and 1000 NUMS    Total Volume =    14.06    Time = 17776.20    Performance =    56.25 MegaHeights/sec
+dear119-16 ~/workspace 348% ./Project1_main
+Using 7 threads and 1000 NUMS    Total Volume =    14.06    Time = 13150.85    Performance =    76.04 MegaHeights/sec
+dear119-16 ~/workspace 349% ./Project1_main
+Using 7 threads and 1000 NUMS    Total Volume =    14.06    Time = 16857.25    Performance =    59.32 MegaHeights/sec
+dear119-16 ~/workspace 350% ./Project1_main
+Using 7 threads and 1000 NUMS    Total Volume =    14.06    Time = 16265.43    Performance =    61.48 MegaHeights/sec
+dear119-16 ~/workspace 351% ./Project1_main
+Using 7 threads and 1000 NUMS    Total Volume =    14.06    Time = 15709.45    Performance =    63.66 MegaHeights/sec
+dear119-16 ~/workspace 352% ./Project1_main
+Using 7 threads and 1000 NUMS    Total Volume =    14.06    Time = 17741.90    Performance =    56.36 MegaHeights/sec
+dear119-16 ~/workspace 353% ./Project1_main
+Using 7 threads and 1000 NUMS    Total Volume =    14.06    Time = 15395.66    Performance =    64.95 MegaHeights/sec
+dear119-16 ~/workspace 354% g++ -o Project1_main Project1_main.cpp -lm -fopenmp
+dear119-16 ~/workspace 355% ls -l Project1_main
+-rwxrwx---. 1 parmarn upg56594 10673 Apr 16 15:16 Project1_main
+dear119-16 ~/workspace 356% ./Project1_main
+Using 7 threads and 1500 NUMS    Total Volume =    14.06    Time = 39559.89    Performance =    56.88 MegaHeights/sec
+dear119-16 ~/workspace 357% ./Project1_main
+Using 7 threads and 1500 NUMS    Total Volume =    14.06    Time = 31942.77    Performance =    70.44 MegaHeights/sec
+dear119-16 ~/workspace 358% ./Project1_main
+Using 7 threads and 1500 NUMS    Total Volume =    14.06    Time = 31847.38    Performance =    70.65 MegaHeights/sec
+dear119-16 ~/workspace 359% ./Project1_main
+Using 7 threads and 1500 NUMS    Total Volume =    14.06    Time = 34821.33    Performance =    64.62 MegaHeights/sec
+dear119-16 ~/workspace 360% ./Project1_main
+Using 7 threads and 1500 NUMS    Total Volume =    14.06    Time = 32440.17    Performance =    69.36 MegaHeights/sec
+dear119-16 ~/workspace 361% ./Project1_main
+Using 7 threads and 1500 NUMS    Total Volume =    14.06    Time = 32267.52    Performance =    69.73 MegaHeights/sec
+dear119-16 ~/workspace 362% ./Project1_main
+Using 7 threads and 1500 NUMS    Total Volume =    14.06    Time = 31863.33    Performance =    70.61 MegaHeights/sec
+dear119-16 ~/workspace 363% ./Project1_main
+Using 7 threads and 1500 NUMS    Total Volume =    14.06    Time = 29783.22    Performance =    75.55 MegaHeights/sec
+dear119-16 ~/workspace 364% ./Project1_main
+Using 7 threads and 1500 NUMS    Total Volume =    14.06    Time = 32013.87    Performance =    70.28 MegaHeights/sec
+dear119-16 ~/workspace 365% ./Project1_main
+Using 7 threads and 1500 NUMS    Total Volume =    14.06    Time = 32197.45    Performance =    69.88 MegaHeights/sec
+dear119-16 ~/workspace 366% 

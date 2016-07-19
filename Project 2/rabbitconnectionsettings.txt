@@ -1,0 +1,422 @@
+dear119-16 ~ 46% ssh rabbit.engr.oregonstate.edu -l parmarn@oregonstate.edu
+The authenticity of host 'rabbit.engr.oregonstate.edu (128.193.38.71)' can't be established.
+RSA key fingerprint is 80:94:db:2d:f8:d6:e2:39:ab:8c:dd:07:5c:93:a7:46.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'rabbit.engr.oregonstate.edu,128.193.38.71' (RSA) to the list of known hosts.
+parmarn@oregonstate.edu@rabbit.engr.oregonstate.edu's password: 
+Connection closed by 128.193.38.71
+dear119-16 ~ 47% ssh rabbit.engr.oregonstate.edu -l parmarn
+parmarn@rabbit.engr.oregonstate.edu's password: 
+========================================================================
+This system is strictly for use by faculty, students, and staff of
+       the College of Engineering, Oregon State University.  
+
+    Unauthorized access is prohibited - violators will be prosecuted
+
+      Use should be consistent with the OSU Acceptable Use Policy
+       as well as College of Engineering policies and guidelines.
+  Refer to http://engr.oregonstate.edu/computing/faqs/coe_aup/index.html
+
+========================================================================
+   Quotas are used for home directories, incoming email, and printing.
+                    For details, check: 
+	http://engr.oregonstate.edu/computing/faqs/quotas.html
+------------------------------------------------------------------------
+If you have any problems with this machine, please mail support@engr.orst.edu
+========================================================================
+
+/usr/bin/xauth:  creating new authority file /nfs/stak/students/p/parmarn/.Xauthority
+Terminal type? [xterm] 
+ 18:23:22 up 183 days, 22:13,  1 user,  load average: 0.04, 0.06, 0.03  
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+parmarn  pts/0    dear119-16.engr. 18:22    1.00s  0.24s  0.11s w
+rabbit ~ 46% setenv INTEL_LICENSE_FILE 28518@linlic.engr.oregonstate.edu
+rabbit ~ 47% setenv SINK_LD_LIBRARY_PATH  /nfs/guille
+rabbit ~ 48% /a2/rh80apps/intel/studio
+/a2/rh80apps/intel/studio: Command not found.
+rabbit ~ 49% .2013-sp1/composer_xe_2
+.2013-sp1/composer_xe_2: Command not found.
+rabbit ~ 50% setenv SINK_LD_LIBRARY_PATH  /nfs/guille
+rabbit ~ 51% /a2/rh80apps/intel/studio
+/a2/rh80apps/intel/studio: Command not found.
+rabbit ~ 52% .2013-sp1/composer_xe_2
+.2013-sp1/composer_xe_2: Command not found.
+rabbit ~ 53% setenv SINK_LD_LIBRARY_PATH  /nfs/guille
+rabbit ~ 54% /a2/rh80apps/intel/studio
+/a2/rh80apps/intel/studio: Command not found.
+rabbit ~ 55% .2013-sp1/composer_xe_2
+.2013-sp1/composer_xe_2: Command not found.
+rabbit ~ 56% setenv SINK_LD_LIBRARY_PATH /nfs/guille/a2/rh80apps/intel/stdio.2013-sp1/composer_xe_2015.0.090/compiler/lib/mic/
+rabbit ~ 57% setenv ICCPATH /nfs/guille/a2/rh80apps/intel/studio.2013-sp1/composer_xe_2015/bin/
+rabbit ~ 58% set path=($path $ICCPATH)
+rabbit ~ 59% source /nfs/guille/a2/rh80apps/intel/studio.2013-sp1/bin/iccvars.csh intel64
+rabbit ~ 60% source .cshrc
+rabbit ~ 61% ping mic0
+PING rabbit-mic0.engr.oregonstate.edu (172.31.1.1) 56(84) bytes of data.
+64 bytes from rabbit-mic0.engr.oregonstate.edu (172.31.1.1): icmp_seq=1 ttl=64 time=117 ms
+64 bytes from rabbit-mic0.engr.oregonstate.edu (172.31.1.1): icmp_seq=2 ttl=64 time=0.357 ms
+64 bytes from rabbit-mic0.engr.oregonstate.edu (172.31.1.1): icmp_seq=3 ttl=64 time=0.234 ms
+64 bytes from rabbit-mic0.engr.oregonstate.edu (172.31.1.1): icmp_seq=4 ttl=64 time=0.232 ms
+64 bytes from rabbit-mic0.engr.oregonstate.edu (172.31.1.1): icmp_seq=5 ttl=64 time=0.230 ms
+64 bytes from rabbit-mic0.engr.oregonstate.edu (172.31.1.1): icmp_seq=6 ttl=64 time=0.228 ms
+64 bytes from rabbit-mic0.engr.oregonstate.edu (172.31.1.1): icmp_seq=7 ttl=64 time=0.237 ms
+^C
+--- rabbit-mic0.engr.oregonstate.edu ping statistics ---
+7 packets transmitted, 7 received, 0% packet loss, time 6356ms
+rtt min/avg/max/mdev = 0.228/17.061/117.909/41.171 ms
+rabbit ~ 62% micinfo
+MicInfo Utility Log
+Created Mon Apr 25 18:31:55 2016
+
+
+	System Info
+		HOST OS			: Linux
+		OS Version		: 2.6.32-573.7.1.el6.x86_64
+		Driver Version		: 3.4.2-1
+		MPSS Version		: 3.4.2
+		Host Physical Memory	: 65858 MB
+
+Device No: 0, Device Name: mic0
+
+	Version
+		Flash Version 		 : 2.1.02.0390
+		SMC Firmware Version	 : 1.16.5078
+		SMC Boot Loader Version	 : 1.8.4326
+		uOS Version 		 : 2.6.38.8+mpss3.4.2
+		Device Serial Number 	 : ADKC31600731
+
+	Board
+		Vendor ID 		 : 0x8086
+		Device ID 		 : 0x225e
+		Subsystem ID 		 : 0x2500
+		Coprocessor Stepping ID	 : 3
+		PCIe Width 		 : Insufficient Privileges
+		PCIe Speed 		 : Insufficient Privileges
+		PCIe Max payload size	 : Insufficient Privileges
+		PCIe Max read req size	 : Insufficient Privileges
+		Coprocessor Model	 : 0x01
+		Coprocessor Model Ext	 : 0x00
+		Coprocessor Type	 : 0x00
+		Coprocessor Family	 : 0x0b
+		Coprocessor Family Ext	 : 0x00
+		Coprocessor Stepping 	 : B1
+		Board SKU 		 : B1PRQ-31S1P
+		ECC Mode 		 : Enabled
+		SMC HW Revision 	 : Product 300W Passive CS
+
+	Cores
+		Total No of Active Cores : 57
+		Voltage 		 : 1088000 uV
+		Frequency		 : 1100000 kHz
+
+	Thermal
+		Fan Speed Control 	 : N/A
+		Fan RPM 		 : N/A
+		Fan PWM 		 : N/A
+		Die Temp		 : 46 C
+
+	GDDR
+		GDDR Vendor		 : Elpida
+		GDDR Version		 : 0x1
+		GDDR Density		 : 2048 Mb
+		GDDR Size		 : 7936 MB
+		GDDR Technology		 : GDDR5 
+		GDDR Speed		 : 5.000000 GT/s 
+		GDDR Frequency		 : 2500000 kHz
+		GDDR Voltage		 : 1501000 uV
+rabbit ~ 63% miccheck
+MicCheck 3.4.2-r1
+Copyright 2013 Intel Corporation All Rights Reserved
+
+Executing default tests for host
+  Test 0: Check number of devices the OS sees in the system ... pass
+  Test 1: Check mic driver is loaded ... pass
+  Test 2: Check number of devices driver sees in the system ... pass
+  Test 3: Check mpssd daemon is running ... pass
+Executing default tests for device: 0
+  Test 4 (mic0): Check device is in online state and its postcode is FF ... pass
+  Test 5 (mic0): Check ras daemon is available in device ... pass
+  Test 6 (mic0): Check running flash version is correct ... pass
+  Test 7 (mic0): Check running SMC firmware version is correct ... pass
+
+Status: OK
+rabbit ~ 64% micsmc -a
+
+mic0 (info):
+   Device Series: ........... Intel(R) Xeon Phi(TM) coprocessor x100 family
+   Device ID: ............... 0x225e
+   Number of Cores: ......... 57
+   OS Version: .............. 2.6.38.8+mpss3.4.2
+   Flash Version: ........... 2.1.02.0390
+   Driver Version: .......... 3.4.2-1 (root@rabbit.engr.oregonstate.edu)
+   Stepping: ................ 0x3
+   Substepping: ............. 0x0
+
+mic0 (temp):
+   Cpu Temp: ................ 42.00 C
+   Memory Temp: ............. 31.00 C
+   Fan-In Temp: ............. 29.00 C
+   Fan-Out Temp: ............ 33.00 C
+   Core Rail Temp: .......... 33.00 C
+   Uncore Rail Temp: ........ 31.00 C
+   Memory Rail Temp: ........ 31.00 C
+
+mic0 (freq):
+   Core Frequency: .......... 1.10 GHz
+   Total Power: ............. 57.00 Watts
+   Low Power Limit: ......... 283.00 Watts
+   High Power Limit: ........ 337.00 Watts
+   Physical Power Limit: .... 357.00 Watts
+
+mic0 (mem):
+   Free Memory: ............. 7348.90 MB
+   Total Memory: ............ 7698.83 MB
+   Memory Usage: ............ 349.93 MB
+
+mic0 (cores):
+   Device Utilization: User:   0.00%,   System:   0.02%,   Idle:  99.98%
+   Per Core Utilization (57 cores in use)
+      Core #1:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #2:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #3:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #4:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #5:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #6:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #7:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #8:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #9:   User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #10:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #11:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #12:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #13:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #14:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #15:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #16:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #17:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #18:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #19:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #20:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #21:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #22:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #23:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #24:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #25:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #26:  User:   0.00%,   System:   0.27%,   Idle:  99.73%
+      Core #27:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #28:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #29:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #30:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #31:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #32:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #33:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #34:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #35:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #36:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #37:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #38:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #39:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #40:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #41:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #42:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #43:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #44:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #45:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #46:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #47:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #48:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #49:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #50:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #51:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #52:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #53:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #54:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #55:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #56:  User:   0.00%,   System:   0.00%,   Idle: 100.00%
+      Core #57:  User:   0.00%,   System:   0.81%,   Idle:  99.19%
+rabbit ~ 65% cd workspace
+rabbit ~/workspace 66% g++ -o Project2_main Project_main.cpp -O3 -lm -fopenmp
+g++: Project_main.cpp: No such file or directory
+rabbit ~/workspace 67% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 68% micnativeloadex Project2_main
+Supplied binary does not match the Intel(R) Xeon Phi(TM)
+coprocessor that is installed.
+
+rabbit ~/workspace 69% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14130 Apr 25 18:43 Project2_main
+rabbit ~/workspace 70% micnativeloadex Project2_main
+Supplied binary does not match the Intel(R) Xeon Phi(TM)
+coprocessor that is installed.
+
+rabbit ~/workspace 71% ./Project2_main
+Have 32 processors.
+Threads: 1   Performance =     9.10 MegaHeights/sec
+rabbit ~/workspace 72% 
+rabbit ~/workspace 72% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 73% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14130 Apr 25 18:53 Project2_main
+rabbit ~/workspace 74% ./Project2_main
+Have 32 processors.
+Threads: 2   Performance =     3.95 MegaHeights/sec
+rabbit ~/workspace 75% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 76% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14130 Apr 25 18:54 Project2_main
+rabbit ~/workspace 77% ./Project2_main
+Have 32 processors.
+Threads: 2   Performance =     3.86 MegaHeights/sec
+rabbit ~/workspace 78% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 79% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14130 Apr 25 18:54 Project2_main
+rabbit ~/workspace 80% ./Project2_main
+Have 32 processors.
+Threads: 4   Performance =     3.07 MegaHeights/sec
+rabbit ~/workspace 81% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 82% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14130 Apr 25 18:55 Project2_main
+rabbit ~/workspace 83% ./Project2_main
+Have 32 processors.
+Threads: 4   Performance =     2.87 MegaHeights/sec
+rabbit ~/workspace 84% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 85% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14110 Apr 25 18:56 Project2_main
+rabbit ~/workspace 86% ./Project2_main
+Have 32 processors.
+Threads: 1   Performance =    23.59 MegaHeights/sec
+rabbit ~/workspace 87% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 88% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14110 Apr 25 18:56 Project2_main
+rabbit ~/workspace 89% ./Project2_main
+Have 32 processors.
+Threads: 1   Performance =    23.56 MegaHeights/sec
+rabbit ~/workspace 90% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 91% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14110 Apr 25 18:56 Project2_main
+rabbit ~/workspace 92% ./Project2_main
+Have 32 processors.
+Threads: 3   Performance =    13.51 MegaHeights/sec
+rabbit ~/workspace 93% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 94% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14110 Apr 25 18:57 Project2_main
+rabbit ~/workspace 95% ./Project2_main
+Have 32 processors.
+Threads: 3   Performance =    13.29 MegaHeights/sec
+rabbit ~/workspace 96% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 97% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14110 Apr 25 18:57 Project2_main
+rabbit ~/workspace 98% ./Project2_main
+Have 32 processors.
+Threads: 4   Performance =    10.36 MegaHeights/sec
+rabbit ~/workspace 99% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 100% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14110 Apr 25 18:58 Project2_main
+rabbit ~/workspace 101% ./Project2_main
+Have 32 processors.
+Threads: 2   Performance =    16.30 MegaHeights/sec
+rabbit ~/workspace 102% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 103% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14110 Apr 25 18:58 Project2_main
+rabbit ~/workspace 104% ./Project2_main
+Have 32 processors.
+Threads: 2   Performance =    13.82 MegaHeights/sec
+rabbit ~/workspace 105% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 106% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14110 Apr 25 18:58 Project2_main
+rabbit ~/workspace 107% ./Project2_main
+Have 32 processors.
+Threads: 5   Performance =    10.04 MegaHeights/sec
+rabbit ~/workspace 108% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 109% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 11062 Apr 25 18:59 Project2_main
+rabbit ~/workspace 110% ./Project2_main
+Have 32 processors.
+Threads: 1   Performance =    28.28 MegaHeights/sec
+rabbit ~/workspace 111% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 112% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 11062 Apr 25 19:00 Project2_main
+rabbit ~/workspace 113% ./Project2_main
+Have 32 processors.
+Threads: 2   Performance =    35.57 MegaHeights/sec
+rabbit ~/workspace 114% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 115% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 11062 Apr 25 19:00 Project2_main
+rabbit ~/workspace 116% ./Project2_main
+Have 32 processors.
+Threads: 2   Performance =    30.66 MegaHeights/sec
+rabbit ~/workspace 117% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 118% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 11062 Apr 25 19:01 Project2_main
+rabbit ~/workspace 119% ./Project2_main
+Have 32 processors.
+Threads: 3   Performance =    43.91 MegaHeights/sec
+rabbit ~/workspace 120% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 121% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 11062 Apr 25 19:01 Project2_main
+rabbit ~/workspace 122% ./Project2_main
+Have 32 processors.
+Threads: 3   Performance =    41.86 MegaHeights/sec
+rabbit ~/workspace 123% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 124% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 11062 Apr 25 19:01 Project2_main
+rabbit ~/workspace 125% ./Project2_main
+Have 32 processors.
+Threads: 4   Performance =    49.56 MegaHeights/sec
+rabbit ~/workspace 126% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 127% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 11062 Apr 25 19:01 Project2_main
+rabbit ~/workspace 128% ./Project2_main
+Have 32 processors.
+Threads: 4   Performance =    49.63 MegaHeights/sec
+rabbit ~/workspace 129% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 130% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 11062 Apr 25 19:02 Project2_main
+rabbit ~/workspace 131% ./Project2_main
+Have 32 processors.
+Threads: 5   Performance =    60.43 MegaHeights/sec
+rabbit ~/workspace 132% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 133% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14130 Apr 25 19:03 Project2_main
+rabbit ~/workspace 134% ./Project2_main
+Have 32 processors.
+Threads: 1   Performance =    27.91 MegaHeights/sec
+rabbit ~/workspace 135% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 136% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14130 Apr 25 19:03 Project2_main
+rabbit ~/workspace 137% ./Project2_main
+Have 32 processors.
+Threads: 1   Performance =    27.90 MegaHeights/sec
+rabbit ~/workspace 138% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 139% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14130 Apr 25 19:03 Project2_main
+rabbit ~/workspace 140% ./Project2_main
+Have 32 processors.
+Threads: 2   Performance =    31.14 MegaHeights/sec
+rabbit ~/workspace 141% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 142% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14130 Apr 25 19:03 Project2_main
+rabbit ~/workspace 143% ./Project2_main
+Have 32 processors.
+Threads: 3   Performance =    45.24 MegaHeights/sec
+rabbit ~/workspace 144% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 145% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14130 Apr 25 19:04 Project2_main
+rabbit ~/workspace 146% ./Project2_main
+Have 32 processors.
+Threads: 4   Performance =    53.27 MegaHeights/sec
+rabbit ~/workspace 147% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 148% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14130 Apr 25 19:04 Project2_main
+rabbit ~/workspace 149% ./Project2_main
+Have 32 processors.
+Threads: 4   Performance =    56.34 MegaHeights/sec
+rabbit ~/workspace 150% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 151% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14130 Apr 25 19:04 Project2_main
+rabbit ~/workspace 152% ./Project2_main
+Have 32 processors.
+Threads: 5   Performance =    54.56 MegaHeights/sec
+rabbit ~/workspace 153% g++ -o Project2_main Project2_main.cpp -O3 -lm -fopenmp
+rabbit ~/workspace 154% ls -l Project2_main
+-rwxrwx---. 1 parmarn upg56594 14130 Apr 25 19:04 Project2_main
+rabbit ~/workspace 155% ./Project2_main
+Have 32 processors.
+Threads: 5   Performance =    58.52 MegaHeights/sec
+rabbit ~/workspace 156% cd

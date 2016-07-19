@@ -1,0 +1,80 @@
+#include "simd.p5.h"
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+#include <omp.h>
+
+#define NUM		
+#define NUMTRIES 	10
+
+	//Array:
+        float *A = new float[NUM];
+        float *B = new float[NUM];
+        float *C = new float[NUM];
+
+int
+main( )
+{
+
+#ifndef _OPENMP
+	fprintf(stderr, "OpenMP is not supported here -- sorry.\n");
+	return 1;
+#endif
+
+
+
+
+	float maxmmults = 0.;
+	float summults	 = 0.;	
+
+
+	double time0  = omp_get_wtime();
+	
+	for(int t=1;t<NUMTRIES;t++)
+	{
+
+		SimdMul( A, B, C, NUM);
+		
+		double time1_1  = omp_get_wtime();
+
+		float mmults = (float)NUM/(time1_1-time0)/1000000.;
+		summults     +=	mmults;
+		if(mmults > maxmmults)
+		maxmmults = mmults;	
+
+	}
+
+	double time1  = omp_get_wtime();
+
+	printf(" Performance = %8.2lf MegaMults/sec\n",maxmmults);
+	printf(" Average Performance = %8.2lf MegaMults/Sec\n", (float)NUM/(time1-time0)/(float)NUMTRIES/1000000.  );
+
+	double time0  = omp_get_wtime();
+	
+	for(int t=1;t<NUMTRIES;t++)
+	{
+
+		SimdMulSum( A, B, C, NUM);
+		
+		double time1_1  = omp_get_wtime();
+
+		float mmults = (float)NUM/(time1_1-time0)/1000000.;
+		summults     +=	mmults;
+		if(mmults > maxmmults)
+		maxmmults = mmults;	
+
+	}
+
+	double time1  = omp_get_wtime();
+
+	printf(" Performance = %8.2lf MegaMults/sec\n",maxmmults);
+	printf(" Average Performance = %8.2lf MegaMults/Sec\n", (float)NUM/(time1-time0)/(float)NUMTRIES/1000000.  );
+
+
+
+}
+
+
+
+
+
